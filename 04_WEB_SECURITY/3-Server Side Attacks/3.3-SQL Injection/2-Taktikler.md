@@ -1,0 +1,5 @@
+- Eğer SQL sorgusunda koşullu bir dalga varsa , yazdığın kısmın sonuna OR 1=1 yaz ve en sona -- ekle.
+	- Zaten sorguda AND koşul vardı ya, OR 1=1 yapınca sen koşulu her zaman çalışır yapıyorsun. Sona -- koyunca da AND'li koşul yorum satırı oluyor.
+- URL'yi manipüle ederken nereyi nasıl manipüle edeceğini anlamaya çalışırken siteyi gez.
+	- Category parametresini manipüle edeceksen sitede oraya bi gir URL'de nasıl yer alıyor ona bak.
+- -- sorgunun devamını yorum satırı yapıyor bol bol kullanırsın..

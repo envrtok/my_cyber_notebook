@@ -1,0 +1,9 @@
+# Obsidian ayarları ve çöp kutusu
+.obsidian/
+.trash/
+
+# Sistem / editör dosyaları
+.DS_Store
+Thumbs.db
+*.swp
+*~
