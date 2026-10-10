@@ -1,7 +1,7 @@
-![[Pasted image 20260811164514.png]]![[Pasted image 20260811163715.png]]
-![[Pasted image 20260811163949.png]]
-![[Pasted image 20260811164010.png]]
-![[Pasted image 20260811164021.png]]
+![](../../99_MEDIA/Pasted%20image%2020260811164514.png)![](../../99_MEDIA/Pasted%20image%2020260811163715.png)
+![](../../99_MEDIA/Pasted%20image%2020260811163949.png)
+![](../../99_MEDIA/Pasted%20image%2020260811164010.png)
+![](../../99_MEDIA/Pasted%20image%2020260811164021.png)
 
 Unified Kill Chain'in (UKC) varlığı Cyber Kill Chain'i (CKC) gereksiz kılmaz; çünkü bu iki model farklı **soyutlama seviyelerine** ve farklı **hedef kitlelere** hizmet eder. CKC yüksek seviyeli, stratejik iletişim için kullanılan pratik bir özet modeliyken; UKC operasyonel ve teknik düzeyde derinlemesine analiz sağlayan detaylı bir çerçevedir.
 
