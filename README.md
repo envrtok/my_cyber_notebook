@@ -13,8 +13,12 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 <!-- INDEX:START -->
 
-![Notlar](https://img.shields.io/badge/notlar-49-0f766e?style=flat-square)
+![Notlar](https://img.shields.io/badge/notlar-50-0f766e?style=flat-square)
 
+
+### 📂 00 · INBOX <sub>(1)</sub>
+
+- [CIDR Gösterimi](<00_INBOX/CIDR Gösterimi.md>)
 
 ### 📂 01 · MINDSET & RESOURCES <sub>(4)</sub>
 
