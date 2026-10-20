@@ -13,12 +13,14 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 <!-- INDEX:START -->
 
-![Notlar](https://img.shields.io/badge/notlar-50-0f766e?style=flat-square)
+![Notlar](https://img.shields.io/badge/notlar-52-0f766e?style=flat-square)
 
 
-### 📂 00 · INBOX <sub>(1)</sub>
+### 📂 00 · INBOX <sub>(3)</sub>
 
+- [Başlıksız](<00_INBOX/Başlıksız.md>)
 - [CIDR Gösterimi](<00_INBOX/CIDR Gösterimi.md>)
+- [Farklı Ağlar Arası Ping ve ARP](<00_INBOX/Farklı Ağlar Arası Ping ve ARP.md>)
 
 ### 📂 01 · MINDSET & RESOURCES <sub>(4)</sub>
 
