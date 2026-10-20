@@ -18,9 +18,9 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 ### 📂 00 · INBOX <sub>(3)</sub>
 
-- [Başlıksız](<00_INBOX/Başlıksız.md>)
 - [CIDR Gösterimi](<00_INBOX/CIDR Gösterimi.md>)
 - [Farklı Ağlar Arası Ping ve ARP](<00_INBOX/Farklı Ağlar Arası Ping ve ARP.md>)
+- [Nmap – Host Keşfi](<00_INBOX/Nmap – Host Keşfi.md>)
 
 ### 📂 01 · MINDSET & RESOURCES <sub>(4)</sub>
 
