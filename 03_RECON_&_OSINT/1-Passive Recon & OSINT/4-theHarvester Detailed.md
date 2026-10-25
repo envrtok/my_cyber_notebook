@@ -36,9 +36,7 @@ Many of the best sources (like Hunter, Shodan, or GitHub) require API keys to wo
 
 Gathers data from every available free source for a specific domain.
 
-Bash
-
-```
+```bash
 theHarvester -d example.com -b all
 ```
 
@@ -46,9 +44,7 @@ theHarvester -d example.com -b all
 
 Focuses on search engines and certificate transparency logs to find subdomains.
 
-Bash
-
-```
+```bash
 theHarvester -d example.com -b bing,duckduckgo,crtsh,virustotal
 ```
 
@@ -56,9 +52,7 @@ theHarvester -d example.com -b bing,duckduckgo,crtsh,virustotal
 
 Limits results to 200 and saves the output for a professional report later.
 
-Bash
-
-```
+```bash
 theHarvester -d example.com -l 200 -b google -f output_report
 ```
 

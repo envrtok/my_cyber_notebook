@@ -1,4 +1,5 @@
-> [!summary] Özet Hosttan gelen **herhangi bir cevap** (ARP, ICMP, TCP ya da UDP) onun ayakta olduğunu gösterir. Hangi hostların açık olduğunu bilmek, kapsamı doğru belirlemenin ve sonraki taramaları verimli yapmanın temelidir.
+> [!summary] Özet
+> Hosttan gelen **herhangi bir cevap** (ARP, ICMP, TCP ya da UDP) onun ayakta olduğunu gösterir. Hangi hostların açık olduğunu bilmek, kapsamı doğru belirlemenin ve sonraki taramaları verimli yapmanın temelidir.
 
 ## 1. Hedef Belirleme
 
@@ -49,7 +50,8 @@ Nmap, kullanıcının yetkisine (root/sudo olup olmamasına) ve hedefin aynı ye
 
 ## 3. Host Keşfi Parametreleri
 
-> [!important] `-sn` Port taraması yapmadan **sadece host keşfi** yapar. `-sn` eklenmezse Nmap, ayakta bulduğu hostların portlarını da taramaya geçer.
+> [!important] `-sn`
+> Port taraması yapmadan **sadece host keşfi** yapar. `-sn` eklenmezse Nmap, ayakta bulduğu hostların portlarını da taramaya geçer.
 
 ### ARP – `-PR`
 
@@ -63,7 +65,8 @@ Sadece aynı yerel ağdaki hedeflerde çalışır. ARP cevabı gelen host ayakta
 |`-PP`|ICMP Timestamp Request (Type 13)|Timestamp Reply (Type 14)|
 |`-PM`|ICMP Address Mask Request (Type 17)|Address Mask Reply (Type 18)|
 
-> [!info] Neden üç farklı ICMP türü var? Birçok güvenlik duvarı klasik ping'i (echo request) engeller. Echo engellendiğinde timestamp veya address mask istekleri bazen hâlâ geçer ve cevap alınabilir. Amaç aynıdır, sadece farklı ICMP mesajı kullanılır.
+> [!info] Neden üç farklı ICMP türü var?
+> Birçok güvenlik duvarı klasik ping'i (echo request) engeller. Echo engellendiğinde timestamp veya address mask istekleri bazen hâlâ geçer ve cevap alınabilir. Amaç aynıdır, sadece farklı ICMP mesajı kullanılır.
 
 ### TCP – `-PS`, `-PA`
 
@@ -102,3 +105,9 @@ Sadece aynı yerel ağdaki hedeflerde çalışır. ARP cevabı gelen host ayakta
 |`-n`|DNS sorgusu yapma (daha hızlı ve sessiz)|
 |`-R`|Kapalı olanlar dahil tüm hostlar için ters DNS (reverse-DNS) sorgusu yap|
 |`-sn`|Sadece host keşfi|
+
+## İlgili Notlar
+
+- [[1-CIDR Gösterimi|CIDR Gösterimi]]: `/n` aralığının hesaplanması ve taramanın neden bloğun başından başladığı
+- [[2-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]: ARP broadcast'lerinin router'dan geçmemesi
+- [[2-Nmap Scans and TCP Flags|Nmap Scans and TCP Flags]]: host keşfinden sonraki adım, port tarama türleri

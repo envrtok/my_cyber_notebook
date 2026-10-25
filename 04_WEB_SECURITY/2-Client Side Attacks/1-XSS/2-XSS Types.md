@@ -57,9 +57,7 @@ The vulnerability exists entirely in the **client-side** code. The server is oft
     
 - **Example Code:**
     
-    JavaScript
-    
-    ```
+    ```javascript
     // URL: site.com/#name=<img src=x onerror=alert(1)>
     var user = window.location.hash.split('=')[1];
     document.getElementById('welcome').innerHTML = user; // The SINK point

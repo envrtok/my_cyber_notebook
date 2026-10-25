@@ -18,11 +18,16 @@ LOG_FILE="$HOME/.cache/notebook-sync.log"
 cd "$NOTEBOOK_DIR"
 
 interactive() { [ -t 0 ] && [ -t 1 ]; }
-say() { printf '\033[1;36m[sync]\033[0m %s\n' "$*"; }
-die() { printf '\033[1;31m[sync] HATA:\033[0m %s\n' "$*" >&2; exit 1; }
+# Renkler sadece terminalde; cron log'una düz metin + zaman damgası yazılır
+if interactive; then C_OK=$'\033[1;36m'; C_ERR=$'\033[1;31m'; C_END=$'\033[0m'; else C_OK=""; C_ERR=""; C_END=""; fi
+ts()  { date '+%Y-%m-%d %H:%M:%S'; }
+say() { printf '%s[sync %s]%s %s\n' "$C_OK" "$(ts)" "$C_END" "$*"; }
+die() { printf '%s[sync %s] HATA:%s %s\n' "$C_ERR" "$(ts)" "$C_END" "$*" >&2; exit 1; }
 
-# Aynı anda iki kopya çalışmasın (cron + elle çalıştırma çakışmasın)
-exec 9>"${XDG_RUNTIME_DIR:-/tmp}/notebook-sync.lock"
+# Aynı anda iki kopya çalışmasın (cron + elle çalıştırma çakışmasın).
+# Yol sabit: cron'da XDG_RUNTIME_DIR tanımlı olmadığından eskiden cron ile
+# terminal farklı kilit dosyası kullanıyordu ve kilit birbirini görmüyordu.
+exec 9>"/tmp/notebook-sync-$(id -u).lock"
 flock -n 9 || { say "Zaten çalışan bir senkron var, çıkılıyor."; exit 0; }
 
 # ------------------------------------------------------------------
@@ -39,11 +44,14 @@ generate_index() {
   echo ""
   echo "![Notlar](https://img.shields.io/badge/notlar-${total}-0f766e?style=flat-square)"
   echo ""
-  find . -type f -name '*.md' -not -path './.git/*' -not -name 'README.md' -printf '%P\n' \
+  # "klasör<TAB>dosya" olarak sıralanır: bir klasördeki notlar alt klasörlerinden
+  # önce gelir, böylece aynı başlık dizinde iki kez görünmez.
+  find . -type f -name '*.md' -not -path './.git/*' -not -name 'README.md' -printf '%h\t%f\n' \
     | LC_ALL=C sort \
-    | while IFS= read -r f; do
+    | while IFS=$'\t' read -r dir base; do
+        [ "$dir" = "." ] && continue             # kök dizindeki .md dosyalarını atla
+        f="${dir#./}/$base"
         top="${f%%/*}"
-        [ "$top" = "$f" ] && continue            # kök dizindeki .md dosyalarını atla
         rest="${f#*/}"
         if [[ "$rest" == */* ]]; then mid="${rest%/*}"; else mid=""; fi
         name="$(basename "$f" .md)"
@@ -155,7 +163,8 @@ else
   fi
   if ! git rev-parse -q --verify "origin/$BRANCH" >/dev/null \
      || [ -n "$(git log "origin/$BRANCH..HEAD" --oneline)" ]; then
-    git push -q origin "$BRANCH"
+    git push -q origin "$BRANCH" \
+      || die "GitHub'a gönderilemedi (giriş/token sorunu olabilir). Commit'ler yerelde bekliyor."
     say "GitHub'a gönderildi."
   fi
 fi

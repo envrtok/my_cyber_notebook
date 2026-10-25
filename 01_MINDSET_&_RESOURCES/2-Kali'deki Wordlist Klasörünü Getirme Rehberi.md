@@ -3,7 +3,8 @@ tags:
 ---
 Kali'deki `/usr/share/wordlists` klasörünün birebir aynısını Pardus'a (veya Debian tabanlı başka bir sisteme) taşıma adımları.
 
-> [!info] Neden direkt kopyalanmıyor? Kali'deki `wordlists` klasörü çoğunlukla **kısayollardan (symlink)** oluşur. Listelerin çoğu dirb, metasploit, john gibi araçların kendi klasörlerinde durur; `wordlists` klasörü sadece onları gösterir. Normal kopyalarsan kırık kısayollar gelir. **Çözüm:** `tar` komutuna `-h` vererek kısayolları gerçek dosyalara çevirmek.
+> [!info] Neden direkt kopyalanmıyor?
+> Kali'deki `wordlists` klasörü çoğunlukla **kısayollardan (symlink)** oluşur. Listelerin çoğu dirb, metasploit, john gibi araçların kendi klasörlerinde durur; `wordlists` klasörü sadece onları gösterir. Normal kopyalarsan kırık kısayollar gelir. **Çözüm:** `tar` komutuna `-h` vererek kısayolları gerçek dosyalara çevirmek.
 
 ---
 
@@ -39,7 +40,8 @@ Bitti. Aşağıdaki [[#Son adımlar]] bölümüne geç.
 
 Pardus'ta geçici bir Kali container'ı açıp klasörü oradan çıkarırsın.
 
-> [!note] Komutlar root olarak yazıldı Normal kullanıcıyla çalışıyorsan Pardus'taki komutların başına `sudo` ekle.
+> [!note] Komutlar root olarak yazıldı
+> Normal kullanıcıyla çalışıyorsan Pardus'taki komutların başına `sudo` ekle.
 
 ### 1. Docker'ı kur ve başlat — _Pardus'ta_
 
@@ -65,7 +67,8 @@ tar -czhf /tmp/wordlists.tar.gz -C /usr/share wordlists
 exit
 ```
 
-> [!tip] Neden `kali-linux-default`? Standart bir Kali kurulumunda gelen araçların hepsini kurar. Klasörün birebir aynı çıkmasının sebebi bu. Birkaç GB indirir, bitmesini bekle.
+> [!tip] Neden `kali-linux-default`?
+> Standart bir Kali kurulumunda gelen araçların hepsini kurar. Klasörün birebir aynı çıkmasının sebebi bu. Birkaç GB indirir, bitmesini bekle.
 
 `exit` yazınca Pardus'a dönersin (`root@pardus` görürsün).
 
@@ -121,4 +124,5 @@ gunzip /usr/share/wordlists/rockyou.txt.gz
 
 ---
 
-> [!warning] Kali depolarını Pardus'a ekleme `sources.list` dosyasına Kali depolarını ekleyip `apt install wordlists` yapmak Pardus'un paket bağımlılıklarını ve güncellemelerini bozabilir. Bu rehberdeki yöntemler sistemi kurcalamadan sadece dosyaları getirir.
+> [!warning] Kali depolarını Pardus'a ekleme
+> `sources.list` dosyasına Kali depolarını ekleyip `apt install wordlists` yapmak Pardus'un paket bağımlılıklarını ve güncellemelerini bozabilir. Bu rehberdeki yöntemler sistemi kurcalamadan sadece dosyaları getirir.

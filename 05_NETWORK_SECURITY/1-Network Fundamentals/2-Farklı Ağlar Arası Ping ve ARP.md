@@ -1,4 +1,5 @@
-> [!summary] Özet Hedef başka bir ağdaysa PC, ARP ile **hedefi değil default gateway'i** sorar. Router, kendi IP'si sorulduğu için hemen cevap verir. Hedefin MAC adresini ise ancak paket kendisine ulaştığında, hedef ağa yeni bir ARP isteği göndererek öğrenir.
+> [!summary] Özet
+> Hedef başka bir ağdaysa PC, ARP ile **hedefi değil default gateway'i** sorar. Router, kendi IP'si sorulduğu için hemen cevap verir. Hedefin MAC adresini ise ancak paket kendisine ulaştığında, hedef ağa yeni bir ARP isteği göndererek öğrenir.
 
 ## Senaryo
 
@@ -40,7 +41,8 @@ sequenceDiagram
 |PC1 → Router|PC1|Router Gi0/0|PC1|PC4|
 |Router → PC4|Router Gi0/1|PC4|PC1|PC4|
 
-> [!important] Kural **IP adresi nihai hedefi, MAC adresi bir sonraki durağı gösterir.** Router'dan geçerken MAC adresleri değişir, IP adresleri değişmez (NAT yoksa). TTL her router'da 1 azalır.
+> [!important] Kural
+> **IP adresi nihai hedefi, MAC adresi bir sonraki durağı gösterir.** Router'dan geçerken MAC adresleri değişir, IP adresleri değişmez (NAT yoksa). TTL her router'da 1 azalır.
 
 ## Router neden öbür tarafa önceden sormuyor?
 
@@ -59,9 +61,17 @@ ARP isteği, gönderenin IP ve MAC bilgisini taşır. Alıcı taraf bu bilgiyi k
 
 ## Packet Tracer'da kontrol
 
-> [!tip] ARP paketinin Target IP alanına bak Simulation modunda PC1'in ARP paketine tıkla ve **Target IP** alanını kontrol et:
+> [!tip] ARP paketinin Target IP alanına bak
+> Simulation modunda PC1'in ARP paketine tıkla ve **Target IP** alanını kontrol et:
 > 
 > - `192.168.1.1` (gateway) yazıyorsa normal davranış budur.
 > - `192.168.2.10` (PC4) yazıyorsa PC1'in **subnet mask'i yanlıştır**. PC1 hedefi kendi ağında sanıyordur ve router [[Proxy ARP]] ile onun yerine cevap veriyordur. Cisco router'larda proxy ARP varsayılan olarak açıktır.
 
-> [!warning] İlk ping'in timeout olması Gerçek cihazlarda router, ARP cevabını beklerken bekleyen ilk paketi çoğu zaman düşürür. Bu yüzden ilk ping timeout olur, sonrakiler başarılı olur (Cisco çıktısında `.!!!!`). Packet Tracer'da da sık görülür.
+> [!warning] İlk ping'in timeout olması
+> Gerçek cihazlarda router, ARP cevabını beklerken bekleyen ilk paketi çoğu zaman düşürür. Bu yüzden ilk ping timeout olur, sonrakiler başarılı olur (Cisco çıktısında `.!!!!`). Packet Tracer'da da sık görülür.
+
+## İlgili Notlar
+
+- [[1-CIDR Gösterimi|CIDR Gösterimi]]: bir IP'nin hangi ağa ait olduğunu belirleyen ağ/host bit ayrımı
+- [[1-Nmap – Host Keşfi|Nmap – Host Keşfi]]: ARP taraması (`-PR`) bu yüzden sadece yerel ağda çalışır
+- [[2-ping & traceroute|ping & traceroute]]: TTL'in her router'da azalması ve traceroute'un bunu nasıl kullandığı

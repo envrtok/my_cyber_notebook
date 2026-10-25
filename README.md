@@ -16,12 +16,6 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 ![Notlar](https://img.shields.io/badge/notlar-52-0f766e?style=flat-square)
 
 
-### 📂 00 · INBOX <sub>(3)</sub>
-
-- [CIDR Gösterimi](<00_INBOX/CIDR Gösterimi.md>)
-- [Farklı Ağlar Arası Ping ve ARP](<00_INBOX/Farklı Ağlar Arası Ping ve ARP.md>)
-- [Nmap – Host Keşfi](<00_INBOX/Nmap – Host Keşfi.md>)
-
 ### 📂 01 · MINDSET & RESOURCES <sub>(4)</sub>
 
 - [0-New Hacking Tools](<01_MINDSET_&_RESOURCES/0-New Hacking Tools.md>)
@@ -38,7 +32,7 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
   - [systemctl & crontab](<02_SYSTEMS_&_OS/LINUX/systemctl & crontab.md>)
   - [🧰 Linux Disk Commands Cheatsheet](<02_SYSTEMS_&_OS/LINUX/🧰 Linux Disk Commands Cheatsheet.md>)
 
-### 📂 03 · RECON & OSINT <sub>(14)</sub>
+### 📂 03 · RECON & OSINT <sub>(16)</sub>
 
 - **1-Passive Recon & OSINT**
   - [1-WHOIS & RDAP](<03_RECON_&_OSINT/1-Passive Recon & OSINT/1-WHOIS & RDAP.md>)
@@ -50,6 +44,9 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
   - [1-Developer Tools](<03_RECON_&_OSINT/2-Active Recon & Network Probing/1-Developer Tools.md>)
   - [2-ping & traceroute](<03_RECON_&_OSINT/2-Active Recon & Network Probing/2-ping & traceroute.md>)
   - [Discovery with Curl](<03_RECON_&_OSINT/2-Active Recon & Network Probing/Discovery with Curl.md>)
+- **2-Active Recon & Network Probing › 3-Nmap**
+  - [1-Nmap – Host Keşfi](<03_RECON_&_OSINT/2-Active Recon & Network Probing/3-Nmap/1-Nmap – Host Keşfi.md>)
+  - [2-Nmap Scans and TCP Flags](<03_RECON_&_OSINT/2-Active Recon & Network Probing/3-Nmap/2-Nmap Scans and TCP Flags.md>)
 - **2.1-Web & Content Discovery**
   - [0-Recon vs Content Discovery](<03_RECON_&_OSINT/2.1-Web & Content Discovery/0-Recon vs Content Discovery.md>)
   - [1-Manually Discovery](<03_RECON_&_OSINT/2.1-Web & Content Discovery/1-Manually Discovery.md>)
@@ -58,16 +55,17 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
   - [4-Automated Subdomain Enumeration](<03_RECON_&_OSINT/2.1-Web & Content Discovery/4-Automated Subdomain Enumeration.md>)
   - [5-Directory Enumeration](<03_RECON_&_OSINT/2.1-Web & Content Discovery/5-Directory Enumeration.md>)
 
-### 📂 04 · WEB SECURITY <sub>(16)</sub>
+### 📂 04 · WEB SECURITY <sub>(15)</sub>
 
 - **1-Access Control & Authentication**
   - [1-Basic Username Enumeration](<04_WEB_SECURITY/1-Access Control & Authentication/1-Basic Username Enumeration.md>)
   - [2-Basic Login Enumeration](<04_WEB_SECURITY/1-Access Control & Authentication/2-Basic Login Enumeration.md>)
   - [3-Introduction to IDOR](<04_WEB_SECURITY/1-Access Control & Authentication/3-Introduction to IDOR.md>)
-  - [4-Hydra Tool](<04_WEB_SECURITY/1-Access Control & Authentication/4-Hydra Tool.md>)
 - **2-Client Side Attacks › 1-XSS**
   - [1-XSS Payloads](<04_WEB_SECURITY/2-Client Side Attacks/1-XSS/1-XSS Payloads.md>)
   - [2-XSS Types](<04_WEB_SECURITY/2-Client Side Attacks/1-XSS/2-XSS Types.md>)
+- **3-Server Side Attacks**
+  - [File Upload Attack Methodology](<04_WEB_SECURITY/3-Server Side Attacks/File Upload Attack Methodology.md>)
 - **3-Server Side Attacks › 3.1-File Inclusion**
   - [1-Critical System Folders](<04_WEB_SECURITY/3-Server Side Attacks/3.1-File Inclusion/1-Critical System Folders.md>)
   - [2-Local File Inclusion Basics](<04_WEB_SECURITY/3-Server Side Attacks/3.1-File Inclusion/2-Local File Inclusion Basics.md>)
@@ -83,12 +81,13 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
   - [Command Injection Bypass](<04_WEB_SECURITY/3-Server Side Attacks/3.5-Command Injection/Command Injection Bypass.md>)
 - **3-Server Side Attacks › 3.6-Security Misconfiguration**
   - [git-dumper](<04_WEB_SECURITY/3-Server Side Attacks/3.6-Security Misconfiguration/git-dumper.md>)
-- **3-Server Side Attacks**
-  - [File Upload Attack Methodology](<04_WEB_SECURITY/3-Server Side Attacks/File Upload Attack Methodology.md>)
 
-### 📂 05 · NETWORK SECURITY <sub>(2)</sub>
+### 📂 05 · NETWORK SECURITY <sub>(4)</sub>
 
-- [Common Network Protocols and Ports](<05_NETWORK_SECURITY/Common Network Protocols and Ports.md>)
+- **1-Network Fundamentals**
+  - [1-CIDR Gösterimi](<05_NETWORK_SECURITY/1-Network Fundamentals/1-CIDR Gösterimi.md>)
+  - [2-Farklı Ağlar Arası Ping ve ARP](<05_NETWORK_SECURITY/1-Network Fundamentals/2-Farklı Ağlar Arası Ping ve ARP.md>)
+  - [3-Common Network Protocols and Ports](<05_NETWORK_SECURITY/1-Network Fundamentals/3-Common Network Protocols and Ports.md>)
 - **Password Attacks**
   - [Hydra](<05_NETWORK_SECURITY/Password Attacks/Hydra.md>)
 
@@ -111,7 +110,7 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 - **1-Defence Frameworks**
   - [1-Pyramid of Pain](<09_SOC/1-Defence Frameworks/1-Pyramid of Pain.md>)
   - [2-Cyber & Unified Kill Chain](<09_SOC/1-Defence Frameworks/2-Cyber & Unified Kill Chain.md>)
-  - [3-UFC & MITTRE ATT&CK](<09_SOC/1-Defence Frameworks/3-UFC & MITTRE ATT&CK.md>)
+  - [3-UKC & MITRE ATT&CK](<09_SOC/1-Defence Frameworks/3-UKC & MITRE ATT&CK.md>)
 
 <!-- INDEX:END -->
 

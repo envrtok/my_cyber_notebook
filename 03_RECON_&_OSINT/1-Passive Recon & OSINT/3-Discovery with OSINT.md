@@ -29,9 +29,7 @@
     
       
     
-    Bash
-    
-    ```
+    ```bash
     theHarvester -d target.com -l 500 -b google,bing,linkedin,shodan
     ```
     

@@ -4,9 +4,7 @@
 
 ## Kullanım
 
-Bash
-
-```
+```bash
 # Temel Kullanım
 git-dumper http://hedef-site.com/.git/ /yerel/hedef/klasor/
 ```
@@ -15,9 +13,7 @@ git-dumper http://hedef-site.com/.git/ /yerel/hedef/klasor/
 
 ## Kurulum
 
-Bash
-
-```
+```bash
 pip install git-dumper
 ```
 
