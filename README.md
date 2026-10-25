@@ -13,15 +13,16 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 <!-- INDEX:START -->
 
-![Notlar](https://img.shields.io/badge/notlar-52-0f766e?style=flat-square)
+![Notlar](https://img.shields.io/badge/notlar-58-0f766e?style=flat-square)
 
 
-### 📂 01 · MINDSET & RESOURCES <sub>(4)</sub>
+### 📂 01 · MINDSET & RESOURCES <sub>(5)</sub>
 
 - [0-New Hacking Tools](<01_MINDSET_&_RESOURCES/0-New Hacking Tools.md>)
 - [0-Privacy Tools & Tips](<01_MINDSET_&_RESOURCES/0-Privacy Tools & Tips.md>)
 - [1-Sahte Yemler (Rabbit Holes)](<01_MINDSET_&_RESOURCES/1-Sahte Yemler (Rabbit Holes).md>)
 - [2-Kali'deki Wordlist Klasörünü Getirme Rehberi](<01_MINDSET_&_RESOURCES/2-Kali'deki Wordlist Klasörünü Getirme Rehberi.md>)
+- [3-CIA Üçlüsü (CIA Triad)](<01_MINDSET_&_RESOURCES/3-CIA Üçlüsü (CIA Triad).md>)
 
 ### 📂 02 · SYSTEMS & OS <sub>(5)</sub>
 
@@ -32,7 +33,7 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
   - [systemctl & crontab](<02_SYSTEMS_&_OS/LINUX/systemctl & crontab.md>)
   - [🧰 Linux Disk Commands Cheatsheet](<02_SYSTEMS_&_OS/LINUX/🧰 Linux Disk Commands Cheatsheet.md>)
 
-### 📂 03 · RECON & OSINT <sub>(16)</sub>
+### 📂 03 · RECON & OSINT <sub>(18)</sub>
 
 - **1-Passive Recon & OSINT**
   - [1-WHOIS & RDAP](<03_RECON_&_OSINT/1-Passive Recon & OSINT/1-WHOIS & RDAP.md>)
@@ -47,6 +48,8 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 - **2-Active Recon & Network Probing › 3-Nmap**
   - [1-Nmap – Host Keşfi](<03_RECON_&_OSINT/2-Active Recon & Network Probing/3-Nmap/1-Nmap – Host Keşfi.md>)
   - [2-Nmap Scans and TCP Flags](<03_RECON_&_OSINT/2-Active Recon & Network Probing/3-Nmap/2-Nmap Scans and TCP Flags.md>)
+  - [3-Nmap - Spoofing and Decoys](<03_RECON_&_OSINT/2-Active Recon & Network Probing/3-Nmap/3-Nmap - Spoofing and Decoys.md>)
+  - [4-Nmap - Idle (Zombie) Scan](<03_RECON_&_OSINT/2-Active Recon & Network Probing/3-Nmap/4-Nmap - Idle (Zombie) Scan.md>)
 - **2.1-Web & Content Discovery**
   - [0-Recon vs Content Discovery](<03_RECON_&_OSINT/2.1-Web & Content Discovery/0-Recon vs Content Discovery.md>)
   - [1-Manually Discovery](<03_RECON_&_OSINT/2.1-Web & Content Discovery/1-Manually Discovery.md>)
@@ -55,7 +58,7 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
   - [4-Automated Subdomain Enumeration](<03_RECON_&_OSINT/2.1-Web & Content Discovery/4-Automated Subdomain Enumeration.md>)
   - [5-Directory Enumeration](<03_RECON_&_OSINT/2.1-Web & Content Discovery/5-Directory Enumeration.md>)
 
-### 📂 04 · WEB SECURITY <sub>(15)</sub>
+### 📂 04 · WEB SECURITY <sub>(16)</sub>
 
 - **1-Access Control & Authentication**
   - [1-Basic Username Enumeration](<04_WEB_SECURITY/1-Access Control & Authentication/1-Basic Username Enumeration.md>)
@@ -75,16 +78,19 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
   - [1-SQL Injection Türleri ve Farkları](<04_WEB_SECURITY/3-Server Side Attacks/3.3-SQL Injection/1-SQL Injection Türleri ve Farkları.md>)
   - [2-Taktikler](<04_WEB_SECURITY/3-Server Side Attacks/3.3-SQL Injection/2-Taktikler.md>)
 - **3-Server Side Attacks › 3.4-Cryptography Flaws**
-  - [Heartbleed](<04_WEB_SECURITY/3-Server Side Attacks/3.4-Cryptography Flaws/Heartbleed.md>)
+  - [0-Encoding vs Hashing vs Encryption](<04_WEB_SECURITY/3-Server Side Attacks/3.4-Cryptography Flaws/0-Encoding vs Hashing vs Encryption.md>)
+  - [Heartbleed (CVE-2014-0160)](<04_WEB_SECURITY/3-Server Side Attacks/3.4-Cryptography Flaws/Heartbleed (CVE-2014-0160).md>)
   - [Padding Oracle](<04_WEB_SECURITY/3-Server Side Attacks/3.4-Cryptography Flaws/Padding Oracle.md>)
 - **3-Server Side Attacks › 3.5-Command Injection**
   - [Command Injection Bypass](<04_WEB_SECURITY/3-Server Side Attacks/3.5-Command Injection/Command Injection Bypass.md>)
 - **3-Server Side Attacks › 3.6-Security Misconfiguration**
   - [git-dumper](<04_WEB_SECURITY/3-Server Side Attacks/3.6-Security Misconfiguration/git-dumper.md>)
 
-### 📂 05 · NETWORK SECURITY <sub>(4)</sub>
+### 📂 05 · NETWORK SECURITY <sub>(6)</sub>
 
 - **1-Network Fundamentals**
+  - [0-OSI Modeli](<05_NETWORK_SECURITY/1-Network Fundamentals/0-OSI Modeli.md>)
+  - [0-TCP-IP Modeli](<05_NETWORK_SECURITY/1-Network Fundamentals/0-TCP-IP Modeli.md>)
   - [1-CIDR Gösterimi](<05_NETWORK_SECURITY/1-Network Fundamentals/1-CIDR Gösterimi.md>)
   - [2-Farklı Ağlar Arası Ping ve ARP](<05_NETWORK_SECURITY/1-Network Fundamentals/2-Farklı Ağlar Arası Ping ve ARP.md>)
   - [3-Common Network Protocols and Ports](<05_NETWORK_SECURITY/1-Network Fundamentals/3-Common Network Protocols and Ports.md>)

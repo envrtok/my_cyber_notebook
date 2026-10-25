@@ -1,6 +1,3 @@
----
-tags:
----
 Kali'deki `/usr/share/wordlists` klasörünün birebir aynısını Pardus'a (veya Debian tabanlı başka bir sisteme) taşıma adımları.
 
 > [!info] Neden direkt kopyalanmıyor?
