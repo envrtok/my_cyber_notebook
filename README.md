@@ -13,8 +13,12 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 <!-- INDEX:START -->
 
-![Notlar](https://img.shields.io/badge/notlar-58-0f766e?style=flat-square)
+![Notlar](https://img.shields.io/badge/notlar-59-0f766e?style=flat-square)
 
+
+### 📂 00 · INBOX <sub>(1)</sub>
+
+- [gnome-cokme-kurtarma](<00_INBOX/gnome-cokme-kurtarma.md>)
 
 ### 📂 01 · MINDSET & RESOURCES <sub>(5)</sub>
 
