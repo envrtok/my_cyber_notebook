@@ -16,27 +16,14 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 ![Notlar](https://img.shields.io/badge/notlar-70-0f766e?style=flat-square)
 
 
-### 📂 00 · INBOX <sub>(11)</sub>
-
-- [Actions on Objectives](<00_INBOX/Actions on Objectives.md>)
-- [Command and Control](<00_INBOX/Command and Control.md>)
-- [Cyber Kill Chain vs MITRE ATT&CK](<00_INBOX/Cyber Kill Chain vs MITRE ATT&CK.md>)
-- [Cyber Kill Chain](<00_INBOX/Cyber Kill Chain.md>)
-- [Delivery](<00_INBOX/Delivery.md>)
-- [Exploitation](<00_INBOX/Exploitation.md>)
-- [Installation](<00_INBOX/Installation.md>)
-- [Recon](<00_INBOX/Recon.md>)
-- [Savunma ve Tespit Mekanizmaları](<00_INBOX/Savunma ve Tespit Mekanizmaları.md>)
-- [Sızma Testi Metodolojileri](<00_INBOX/Sızma Testi Metodolojileri.md>)
-- [Weaponization](<00_INBOX/Weaponization.md>)
-
-### 📂 01 · MINDSET & RESOURCES <sub>(5)</sub>
+### 📂 01 · MINDSET & RESOURCES <sub>(6)</sub>
 
 - [0-New Hacking Tools](<01_MINDSET_&_RESOURCES/0-New Hacking Tools.md>)
 - [0-Privacy Tools & Tips](<01_MINDSET_&_RESOURCES/0-Privacy Tools & Tips.md>)
 - [1-Sahte Yemler (Rabbit Holes)](<01_MINDSET_&_RESOURCES/1-Sahte Yemler (Rabbit Holes).md>)
 - [2-Kali'deki Wordlist Klasörünü Getirme Rehberi](<01_MINDSET_&_RESOURCES/2-Kali'deki Wordlist Klasörünü Getirme Rehberi.md>)
 - [3-CIA Üçlüsü (CIA Triad)](<01_MINDSET_&_RESOURCES/3-CIA Üçlüsü (CIA Triad).md>)
+- [4-Sızma Testi Metodolojileri](<01_MINDSET_&_RESOURCES/4-Sızma Testi Metodolojileri.md>)
 
 ### 📂 02 · SYSTEMS & OS <sub>(6)</sub>
 
@@ -126,12 +113,23 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 - [1-Arazidekiyle Yaşamak (Living off the Land)](<08_POST_EXPLOITATION/1-Arazidekiyle Yaşamak (Living off the Land).md>)
 
-### 📂 09 · SOC <sub>(3)</sub>
+### 📂 09 · SOC <sub>(13)</sub>
 
 - **1-Defence Frameworks**
   - [1-Pyramid of Pain](<09_SOC/1-Defence Frameworks/1-Pyramid of Pain.md>)
   - [2-Cyber & Unified Kill Chain](<09_SOC/1-Defence Frameworks/2-Cyber & Unified Kill Chain.md>)
   - [3-UKC & MITRE ATT&CK](<09_SOC/1-Defence Frameworks/3-UKC & MITRE ATT&CK.md>)
+  - [4-Cyber Kill Chain vs MITRE ATT&CK](<09_SOC/1-Defence Frameworks/4-Cyber Kill Chain vs MITRE ATT&CK.md>)
+- **1-Defence Frameworks › 2.1-Cyber Kill Chain**
+  - [0-Cyber Kill Chain](<09_SOC/1-Defence Frameworks/2.1-Cyber Kill Chain/0-Cyber Kill Chain.md>)
+  - [1-Recon](<09_SOC/1-Defence Frameworks/2.1-Cyber Kill Chain/1-Recon.md>)
+  - [2-Weaponization](<09_SOC/1-Defence Frameworks/2.1-Cyber Kill Chain/2-Weaponization.md>)
+  - [3-Delivery](<09_SOC/1-Defence Frameworks/2.1-Cyber Kill Chain/3-Delivery.md>)
+  - [4-Exploitation](<09_SOC/1-Defence Frameworks/2.1-Cyber Kill Chain/4-Exploitation.md>)
+  - [5-Installation](<09_SOC/1-Defence Frameworks/2.1-Cyber Kill Chain/5-Installation.md>)
+  - [6-Command and Control](<09_SOC/1-Defence Frameworks/2.1-Cyber Kill Chain/6-Command and Control.md>)
+  - [7-Actions on Objectives](<09_SOC/1-Defence Frameworks/2.1-Cyber Kill Chain/7-Actions on Objectives.md>)
+  - [8-Savunma ve Tespit Mekanizmaları](<09_SOC/1-Defence Frameworks/2.1-Cyber Kill Chain/8-Savunma ve Tespit Mekanizmaları.md>)
 
 <!-- INDEX:END -->
 

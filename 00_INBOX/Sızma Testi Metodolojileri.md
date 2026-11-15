@@ -1,3 +1,0 @@
-- OWASP: Web uygulamalarıyla ilgili sızma testi metodolojisi ve güvenlik zafiyetlerini belirler
-- OSSTMM: Bilgi ve Ağ güvenliğine odaklanır
-- NIST: Devlet kurumları ve büyük ölçekli kurumların güvenliğine odaklanır

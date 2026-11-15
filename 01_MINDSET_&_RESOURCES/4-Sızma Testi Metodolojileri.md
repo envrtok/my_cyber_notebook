@@ -1,0 +1,3 @@
+cd ~/OBSIDIAN/my_cyber_notebook/00_INBOX && rm -- "Actions on Objectives.md" "Command and Control.md" "Cyber Kill Chain vs MITRE ATT&CK.md" "Cyber Kill Chain.md" "Delivery.md" "Exploitation.md" "Installation.md" "Recon.md" "Savunma ve Tespit Mekanizmaları.md" "Sızma Testi Metodolojileri.md" "Weaponization.md"- OWASP: Web uygulamalarıyla ilgili sızma testi metodolojisi ve güvenlik zafiyetlerini belirler
+- OSSTMM: Bilgi ve Ağ güvenliğine odaklanır
+- NIST: Devlet kurumları ve büyük ölçekli kurumların güvenliğine odaklanır
