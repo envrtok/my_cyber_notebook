@@ -10,4 +10,10 @@
 	- Drive-by download
 	- Watering hole
 - USB/Harici Medya - Baiting
-	- USB Rubber Ducky, ışık hızında klavye gibi bazı tuşlara basarak 
+	- USB Rubber Ducky, ışık hızında klavye gibi bazı tuşlara basarak zararlı komutları çalıştırır
+
+# Delivery Aşamasında Savunma
+- E-postaları eklerini sandboxlamak, SPP DKIM DMARC zorunlu yapmak ve link analizi yapmak
+- Zararlı veya newly registered domain ve IPlere erişim engeli
+- Farkındalık eğitimleri
+- USB kısıtlamaları

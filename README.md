@@ -13,18 +13,22 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 <!-- INDEX:START -->
 
-![Notlar](https://img.shields.io/badge/notlar-65-0f766e?style=flat-square)
+![Notlar](https://img.shields.io/badge/notlar-70-0f766e?style=flat-square)
 
 
-### 📂 00 · INBOX <sub>(7)</sub>
+### 📂 00 · INBOX <sub>(11)</sub>
 
-- [Başlıksız](<00_INBOX/Başlıksız.md>)
+- [Actions on Objectives](<00_INBOX/Actions on Objectives.md>)
+- [Command and Control](<00_INBOX/Command and Control.md>)
+- [Cyber Kill Chain vs MITRE ATT&CK](<00_INBOX/Cyber Kill Chain vs MITRE ATT&CK.md>)
 - [Cyber Kill Chain](<00_INBOX/Cyber Kill Chain.md>)
 - [Delivery](<00_INBOX/Delivery.md>)
+- [Exploitation](<00_INBOX/Exploitation.md>)
+- [Installation](<00_INBOX/Installation.md>)
 - [Recon](<00_INBOX/Recon.md>)
+- [Savunma ve Tespit Mekanizmaları](<00_INBOX/Savunma ve Tespit Mekanizmaları.md>)
 - [Sızma Testi Metodolojileri](<00_INBOX/Sızma Testi Metodolojileri.md>)
 - [Weaponization](<00_INBOX/Weaponization.md>)
-- [gnome-cokme-kurtarma](<00_INBOX/gnome-cokme-kurtarma.md>)
 
 ### 📂 01 · MINDSET & RESOURCES <sub>(5)</sub>
 
@@ -34,12 +38,13 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 - [2-Kali'deki Wordlist Klasörünü Getirme Rehberi](<01_MINDSET_&_RESOURCES/2-Kali'deki Wordlist Klasörünü Getirme Rehberi.md>)
 - [3-CIA Üçlüsü (CIA Triad)](<01_MINDSET_&_RESOURCES/3-CIA Üçlüsü (CIA Triad).md>)
 
-### 📂 02 · SYSTEMS & OS <sub>(5)</sub>
+### 📂 02 · SYSTEMS & OS <sub>(6)</sub>
 
 - **LINUX**
   - [APT Package Management Cheatsheet](<02_SYSTEMS_&_OS/LINUX/APT Package Management Cheatsheet.md>)
   - [Python Virtual Environment Quick Guide](<02_SYSTEMS_&_OS/LINUX/Python Virtual Environment Quick Guide.md>)
   - [Snap & Flatpak](<02_SYSTEMS_&_OS/LINUX/Snap & Flatpak.md>)
+  - [gnome-cokme-kurtarma](<02_SYSTEMS_&_OS/LINUX/gnome-cokme-kurtarma.md>)
   - [systemctl & crontab](<02_SYSTEMS_&_OS/LINUX/systemctl & crontab.md>)
   - [🧰 Linux Disk Commands Cheatsheet](<02_SYSTEMS_&_OS/LINUX/🧰 Linux Disk Commands Cheatsheet.md>)
 
