@@ -13,11 +13,17 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 <!-- INDEX:START -->
 
-![Notlar](https://img.shields.io/badge/notlar-59-0f766e?style=flat-square)
+![Notlar](https://img.shields.io/badge/notlar-65-0f766e?style=flat-square)
 
 
-### 📂 00 · INBOX <sub>(1)</sub>
+### 📂 00 · INBOX <sub>(7)</sub>
 
+- [Başlıksız](<00_INBOX/Başlıksız.md>)
+- [Cyber Kill Chain](<00_INBOX/Cyber Kill Chain.md>)
+- [Delivery](<00_INBOX/Delivery.md>)
+- [Recon](<00_INBOX/Recon.md>)
+- [Sızma Testi Metodolojileri](<00_INBOX/Sızma Testi Metodolojileri.md>)
+- [Weaponization](<00_INBOX/Weaponization.md>)
 - [gnome-cokme-kurtarma](<00_INBOX/gnome-cokme-kurtarma.md>)
 
 ### 📂 01 · MINDSET & RESOURCES <sub>(5)</sub>

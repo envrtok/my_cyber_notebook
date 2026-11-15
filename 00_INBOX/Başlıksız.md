@@ -1,0 +1,4 @@
+- Notların içeriklerini düzenleyerek düzgün obsidian notu yap
+- Gerekirse klasördeki diğer notlarla birleştir
+- Veya gerekli gördüğün herhangi bir notu dilediğin gibi ayır
+- Doğru klasör organizasyonunu yap gerekirse organizasyon yapısını değiştir
