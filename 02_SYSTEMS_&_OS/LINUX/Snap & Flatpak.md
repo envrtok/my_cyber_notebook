@@ -2,23 +2,13 @@
 
 All three (apt, snap, flatpak) are **package managers** but work differently:
 
-APT
-  - Made by: Debian/Ubuntu
-  - Apps run: system-integrated
-  - Updates: manual (apt upgrade)
-  - App store: —
+| | **APT** | **Snap** | **Flatpak** |
+|---|---|---|---|
+| **Made by** | Debian/Ubuntu | Canonical (Ubuntu) | Independent |
+| **Apps run** | System-integrated | Sandboxed | Sandboxed |
+| **Updates** | Manual (`apt upgrade`) | Automatic | Manual |
+| **App store** | — | snapcraft.io | flathub.org |
 
-Snap
-  - Made by: Canonical (Ubuntu)
-  - Apps run: sandboxed
-  - Updates: automatic
-  - App store: snapcraft.io
-
-Flatpak
-  - Made by: Independent
-  - Apps run: sandboxed
-  - Updates: manual
-  - App store: flathub.org
 ---
 
 ### Snap Commands

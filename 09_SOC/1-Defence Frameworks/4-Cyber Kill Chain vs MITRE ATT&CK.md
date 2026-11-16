@@ -53,4 +53,4 @@ Unified Kill Chain, saldırıyı üç ana faza ayırır:
 
 ## Sonuç
 
-Siber güvenlikte "tek bir doğru model" yoktur. Cyber Kill Chain, savunma mimarisini kurgulamak için mükemmel bir temeldir ("Defans derinliği oluşturmalıyız"). MITRE ATT&CK ise bu mimari üzerindeki boşlukları bulmak ve saldırgan davranışlarını detaylı analiz etmek için vazgeçilmez bir ansikopedidir. Profesyonel bir analist, her iki modele de hakim olmalıdır.
+Siber güvenlikte "tek bir doğru model" yoktur. Cyber Kill Chain, savunma mimarisini kurgulamak için mükemmel bir temeldir ("Defans derinliği oluşturmalıyız"). MITRE ATT&CK ise bu mimari üzerindeki boşlukları bulmak ve saldırgan davranışlarını detaylı analiz etmek için vazgeçilmez bir ansiklopedidir. Profesyonel bir analist, her iki modele de hakim olmalıdır.

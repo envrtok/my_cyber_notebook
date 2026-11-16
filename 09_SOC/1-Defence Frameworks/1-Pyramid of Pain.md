@@ -6,25 +6,22 @@
 
 ## Piramit Katmanları ve Örnekler
 ```
-         / \
-        /   \          TTPs (Çok Zor / Tough)
-       / TTP \
-      /-------\        Tools (Zorlu / Challenging)
-     /  Tools  \
-    /-----------\      Network/Host Artifacts (Rahatsız Edici / Annoying)
-   / Network/Host\
-  /---------------\    Domain Names (Basit / Simple)
- /  Domain Names   \
-/-------------------\  IP Addresses (Kolay / Easy)
+                /\
+               /  \        TTPs ................ Çok Zor (Tough)
+              /----\
+             / Tool \      Tools ............... Zorlu (Challenging)
+            /--------\
+           / Network/ \    Network/Host ........ Rahatsız Edici (Annoying)
+          /   Host     \
+         /--------------\  Domain Names ........ Basit (Simple)
+        /  Domain Names  \
+       /------------------\ IP Addresses ....... Kolay (Easy)
+      /    IP Addresses    \
+     /----------------------\ Hash Values ...... Önemsiz (Trivial)
+    /       Hash Values      \
+   /__________________________\
 
-/ IP Addresses
-
-/-----------------------\ Hash Values (Önemsiz / Trivial)
-
-/ Hash Values
-
-/___________________________\
-
+   ▲ yukarı = saldırgana daha çok "acı" / savunmada daha değerli
 ```
 
 ### 1. Hash Values (Hash Değerleri)
@@ -88,7 +85,7 @@
 
 ### 6. TTPs (Taktik, Teknik ve Prosedürler)
 * **Saldırgana Etkisi:** Çok Zor (Tough)
-* **Açıklama:** Saldırganın hedefine ulaşırken kullandığı davranış kalıpları, alışkanlıkları ve metodolojisidir. (Bkz: [[MITRE ATT&CK]])
+* **Açıklama:** Saldırganın hedefine ulaşırken kullandığı davranış kalıpları, alışkanlıkları ve metodolojisidir. (Bkz: [[3-UKC & MITRE ATT&CK|MITRE ATT&CK]])
 * **Neden En Etkili?:** Saldırganın düşünme ve iş yapma biçimini engellemektir. Saldırgan aracı değiştirse bile aynı tekniği kullanamaz; yeni bir strateji öğrenmek zorunda kalır.
 * **Örnek Hiyerarşi:**
   * **Taktik (Ne yapacak?):** *Credential Access* (Kimlik Bilgisi Ele Geçirme)
