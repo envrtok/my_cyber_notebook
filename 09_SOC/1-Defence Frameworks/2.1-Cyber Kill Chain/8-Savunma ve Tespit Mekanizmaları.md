@@ -1,78 +1,60 @@
-Cyber Kill Chain modelinin en büyük gücü, savunmacılara her aşamada saldırıyı durdurma veya tespit etme fırsatı sunmasıdır. Bu bölümde, saldırı zincirinin her halkasına karşı uygulanabilecek savunma stratejilerini ve tespit yöntemlerini inceleyeceğiz.
+> [!summary] Özet
+> Cyber Kill Chain modelinin en büyük gücü, savunmacılara **her aşamada** saldırıyı tespit etme veya durdurma fırsatı sunmasıdır. Bu not, zincirin her halkasına karşı uygulanabilecek savunma stratejilerini, gerekli log kaynaklarını ve IoC kavramını bir araya getirir.
 
-## Savunma Matrisi
+## Savunma Eylemleri: 6D
 
-Savunma eylemleri temel olarak 6 kategoriye (6D) ayrılır:
-
-1. **Detect (Tespit Et):** Saldırganın varlığını görmek.
-2. **Deny (Engelle):** Saldırının gerçekleşmesini önlemek.
-3. **Disrupt (Boz):** Saldırı akışını kesmek veya durdurmak.
-4. **Degrade (Zayıflat):** Saldırının etkisini veya hızını azaltmak.
-5. **Deceive (Aldat):** Saldırganı yanlış yönlendirmek (Honeypot).
-6. **Destroy (Yok Et):** (Siber dünyada genellikle karşı saldırı anlamına gelir ve yasal olarak sınırlıdır, bu nedenle "Contain/İzole Et" olarak da düşünülebilir).
+| Eylem | Anlamı | Örnek |
+|---|---|---|
+| **Detect** (Tespit Et) | Saldırganın varlığını görmek | IDS alarmı, SIEM korelasyonu |
+| **Deny** (Engelle) | Saldırının gerçekleşmesini önlemek | Firewall kuralı, yama |
+| **Disrupt** (Boz) | Devam eden saldırı akışını kesmek | Zararlı prosesi sonlandırmak |
+| **Degrade** (Zayıflat) | Saldırının etkisini veya hızını azaltmak | Bant genişliği kısıtlama, izolasyon |
+| **Deceive** (Aldat) | Saldırganı yanlış yönlendirmek | Honeypot, sahte banner |
+| **Destroy** (Yok Et) | Saldırganın altyapısını etkisiz kılmak | Siber dünyada karşı saldırı anlamına gelir ve yasal olarak sınırlıdır; pratikte **Contain (İzole Et)** olarak düşünülür |
 
 ## Aşamaya Göre Savunma Stratejileri
 
-### 1. Keşif (Reconnaissance)
+| Aşama | Tespit | Engelleme | Diğer |
+|---|---|---|---|
+| [[1-Recon\|Reconnaissance]] | Web log analizi (tarayıcı User-Agent'ları), Nmap tarama imzaları | Firewall kuralları, gereksiz servislerin kapatılması | **Aldat:** Sahte banner bilgileri |
+| [[2-Weaponization\|Weaponization]] | Yok (saldırganın tarafında olur) | Yok | **Analiz:** Malware analizi ile araçları anlamak ve IoC üretmek |
+| [[3-Delivery\|Delivery]] | E-posta gateway analizleri, kullanıcı ihbarları | SPF/DKIM/DMARC, zararlı ek engelleme, URL filtreleme | **Eğitim:** Farkındalık eğitimleri |
+| [[4-Exploitation\|Exploitation]] | EDR alarmları, WAF logları | Yama yönetimi, ASLR/DEP, güvenli kodlama (input validation) | **Zayıflat:** Eski işletim sistemlerini ağdan izole etmek |
+| [[5-Installation\|Installation]] | FIM, registry değişiklik alarmları | Least Privilege, AppLocker (yalnızca izinli uygulamalar) | **Boz:** Zararlı proseslerin sonlandırılması |
+| [[6-Command and Control\|C2]] | DNS trafik analizi (uzun domainler), proxy loglarında şüpheli IP'ler, beaconing analizi | DNS Sinkhole, egress (giden trafik) filtreleme | **Aldat:** C2 trafiğini honeypot'a yönlendirmek |
+| [[7-Actions on Objectives\|Actions on Objectives]] | DLP alarmları, UEBA | Veri şifreleme (data at rest encryption), ağ segmentasyonu | **Müdahale:** Etkilenen sistemleri ağdan koparmak (isolation) |
 
-- **Tespit:** Web log analizi (tarayıcı User-Agent'ları), Nmap tarama imzaları.
-- **Engelle:** Firewall kuralları, gereksiz servislerin kapatılması.
-- **Aldat:** Sahte banner bilgileri göstermek.
-
-### 2. Silahlanma (Weaponization)
-
-- **Tespit:** N/A (Saldırganın tarafında olur).
-- **Analiz:** Malware analizi yaparak kullanılan araçları anlamak ve IoC üretmek.
-
-### 3. İletim (Delivery)
-
-- **Tespit:** Email Gateway analizleri, kullanıcı ihbarları.
-- **Engelle:** SPF/DKIM/DMARC, zararlı eklerin engellenmesi, URL filtreleme.
-- **Eğitim:** Kullanıcı farkındalık eğitimleri.
-
-### 4. Sömürü (Exploitation)
-
-- **Tespit:** EDR (Endpoint Detection Response) alarmları, WAF logları.
-- **Engelle:** Yama yönetimi (Patching), ASLR/DEP, Güvenli kodlama (Input validation).
-- **Zayıflat:** Eski işletim sistemlerinin ağdan izole edilmesi.
-
-### 5. Kurulum (Installation)
-
-- **Tespit:** FIM (Dosya Bütünlük İzleme), Registry değişiklik alarmları.
-- **Engelle:** Yetki kısıtlaması (Least Privilege), AppLocker (Sadece izinli uygulamalar çalışsın).
-- **Boz:** Zararlı proseslerin kill edilmesi.
-
-### 6. Komuta ve Kontrol (C2)
-
-- **Tespit:** DNS trafiği analizi (Uzun domainler), Proxy loglarında şüpheli IP'ler, Beaconing analizi.
-- **Engelle:** DNS Sinkhole (Zararlı domainleri boşa düşürme), Egress (Giden trafik) filtreleme.
-- **Aldat:** Saldırganın C2 trafiğini bir Honeypot'a yönlendirmek.
-
-### 7. Hedef Üzerindeki Eylemler (Actions)
-
-- **Tespit:** DLP (Veri Sızıntısı Önleme) alarmları, UEBA (Kullanıcı Davranış Analizi).
-- **Engelle:** Veri şifreleme (Data at Rest Encryption), Ağ segmentasyonu.
-- **Müdahale:** Etkilenen sistemlerin ağdan koparılması (Isolation).
+> [!tip] DNS Sinkhole
+> Zararlı domainlere yapılan DNS sorgularına gerçek IP yerine kurumun kontrolündeki zararsız bir IP döndürmektir. Bağlantı kurulamaz, üstelik sinkhole'a gelen istekler hangi makinelerin enfekte olduğunu gösterir.
 
 ## Tespit İçin Kritik Veri Kaynakları
 
-Bir SOC (Güvenlik Operasyon Merkezi) analistinin Kill Chain tabanlı tespit yapabilmesi için aşağıdaki log kaynaklarına ihtiyacı vardır:
+Bir SOC analistinin Kill Chain tabanlı tespit yapabilmesi için şu log kaynaklarına ihtiyacı vardır:
 
-|Log Kaynağı|İlgili Kill Chain Aşaması|Örnek Tespit|
+| Log Kaynağı | İlgili Kill Chain Aşaması | Örnek Tespit |
 |---|---|---|
-|**Web Proxy / Firewall**|Delivery, C2|Zararlı domain ziyareti, C2 beaconing.|
-|**Email Gateway**|Delivery|Phishing maili, zararlı ek.|
-|**EDR / Antivirus**|Exploitation, Installation|Bellek taşması, Registry değişikliği.|
-|**DNS Server**|Recon, Delivery, C2, Actions|DGA domainleri, DNS Tunneling.|
-|**Active Directory**|Recon, Actions|Brute Force, Pass the Hash, Yetki yükseltme.|
+| **Web Proxy / Firewall** | Delivery, C2 | Zararlı domain ziyareti, C2 beaconing |
+| **Email Gateway** | Delivery | Phishing e-postası, zararlı ek |
+| **EDR / Antivirüs** | Exploitation, Installation | Bellek taşması, registry değişikliği |
+| **DNS Server** | Recon, Delivery, C2, Actions | DGA domainleri, DNS Tunneling |
+| **Active Directory** | Recon, Actions | Brute force, Pass the Hash, yetki yükseltme |
 
 ## Indicators of Compromise (IoC) - Uzlaşma Göstergeleri
 
-Her saldırı arkasında iz bırakır. Bu izlere IoC denir.
+Her saldırı arkasında iz bırakır; bu izlere **IoC** denir.
 
-- **Hash:** Zararlı dosyanın MD5/SHA256 özeti.
-- **IP Adresi:** C2 sunucusu veya saldırganın IP'si.
-- **Domain:** Phishing veya C2 domaini.
-- **Network/Host Artifacts:** Kayıt defteri anahtarı, dosya ismi, Mutex değeri.
+- **Hash:** Zararlı dosyanın MD5/SHA256 özeti
+- **IP Adresi:** C2 sunucusunun veya saldırganın IP'si
+- **Domain:** Phishing veya C2 domaini
+- **Network/Host Artifacts:** Kayıt defteri anahtarı, dosya adı, mutex değeri
 
-Savunmacılar, tespit ettikleri bu IoC'leri güvenlik cihazlarına (SIEM, Firewall) girerek otomatik engelleme sağlarlar.
+Savunmacılar tespit ettikleri IoC'leri güvenlik cihazlarına (SIEM, firewall) girerek otomatik engelleme sağlar.
+
+> [!important]
+> Tüm IoC'ler aynı değerde değildir. Hash'i engellemek saldırgan için önemsizken (dosyayı bir bayt değiştirmesi yeter), davranışını (TTP) engellemek onu yöntemini değiştirmeye zorlar. Bkz. [[1-Pyramid of Pain|Pyramid of Pain]]
+
+## İlgili Notlar
+
+- [[0-Cyber Kill Chain|Cyber Kill Chain]]
+- [[1-Pyramid of Pain|Pyramid of Pain]]
+- [[4-Cyber Kill Chain vs MITRE ATT&CK|Cyber Kill Chain vs MITRE ATT&CK]]
