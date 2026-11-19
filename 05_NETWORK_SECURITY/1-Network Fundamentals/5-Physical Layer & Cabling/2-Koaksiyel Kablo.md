@@ -1,5 +1,5 @@
 > [!summary] Özet
-> **Koaksiyel kablo**, yüksek frekanslı elektrik/veri sinyallerini dış parazitlerden koruyarak taşıyan, iç içe katmanlı bir bakır kablodur. Merkezdeki bakır teli saran topraklanmış metal örgü sayesinde elektromanyetik gürültüye karşı dayanıklıdır. Fiziksel katman ([[0-OSI Modeli|OSI]] L1) iletim ortamıdır.
+> **Koaksiyel kablo**, yüksek frekanslı elektrik/veri sinyallerini dış parazitlerden koruyarak taşıyan, iç içe katmanlı bir bakır kablodur. Merkezdeki bakır teli saran topraklanmış metal örgü sayesinde elektromanyetik gürültüye karşı dayanıklıdır. Fiziksel katman ([[3-OSI Modeli|OSI]] L1) iletim ortamıdır.
 
 ## Çalışma Prensibi
 
@@ -37,4 +37,4 @@
 ## İlgili Notlar
 
 - [[1-Çift Bükümlü Kablo|Çift Bükümlü Kablo]] ve [[3-Fiber Optik Kablo|Fiber Optik Kablo]]: diğer iletim ortamları
-- [[0-OSI Modeli|OSI Modeli]]: fiziksel katman (L1)
+- [[3-OSI Modeli|OSI Modeli]]: fiziksel katman (L1)

@@ -1,5 +1,5 @@
 > [!summary] Özet
-> **IP (Internet Protocol)**, ağdaki her cihazı **mantıksal bir adresle** tanımlayan ve veri paketlerini kaynaktan hedefe **yönlendiren** ağ (internet) katmanı protokolüdür. Taşıma katmanından gelen segmenti IP başlığıyla kapsülleyip datagram'a dönüştürür. Güvenilirlik sağlamaz (o iş [[9-TCP|TCP]]'nindir); görevi adresleme ve yönlendirmedir.
+> **IP (Internet Protocol)**, ağdaki her cihazı **mantıksal bir adresle** tanımlayan ve veri paketlerini kaynaktan hedefe **yönlendiren** ağ (internet) katmanı protokolüdür. Taşıma katmanından gelen segmenti IP başlığıyla kapsülleyip datagram'a dönüştürür. Güvenilirlik sağlamaz (o iş [[12-TCP|TCP]]'nindir); görevi adresleme ve yönlendirmedir.
 
 ![Internet Protocol (IP) kapsülleme](https://storage.hackviser.com/file/hackviser-prod/trainings/sections/images/e46b2dee-f6fa-44de-86f2-a1e0c105d4e2/ipencap-fda5fc6c1.webp)
 
@@ -44,7 +44,7 @@ Yönlendirme, RIP, OSPF, BGP gibi yönlendirme protokolleriyle en uygun yol seç
 
 ## İlgili Notlar
 
-- [[0-TCP-IP Modeli|TCP/IP Modeli]]: IP'nin katmanlar içindeki yeri ve gerçek başlık alanları
-- [[1-CIDR Gösterimi|CIDR Gösterimi]] ve [[6-IP Subneting|IP Subneting]]: IP adres bloklarının bölünmesi
-- [[7-ARP|ARP]]: IP adresinin MAC adresine çözülmesi
-- [[8-ICMP|ICMP]]: IP üzerinde taşınan kontrol protokolü
+- [[4-TCP-IP Modeli|TCP/IP Modeli]]: IP'nin katmanlar içindeki yeri ve gerçek başlık alanları
+- [[8-CIDR Gösterimi|CIDR Gösterimi]] ve [[7-Subnet Mask ve Ağ Adresi|Subnet Mask ve Ağ Adresi]]: IP adres bloklarının bölünmesi
+- [[9-ARP|ARP]]: IP adresinin MAC adresine çözülmesi
+- [[11-ICMP|ICMP]]: IP üzerinde taşınan kontrol protokolü

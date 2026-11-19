@@ -108,6 +108,6 @@ Sadece aynı yerel ağdaki hedeflerde çalışır. ARP cevabı gelen host ayakta
 
 ## İlgili Notlar
 
-- [[1-CIDR Gösterimi|CIDR Gösterimi]]: `/n` aralığının hesaplanması ve taramanın neden bloğun başından başladığı
-- [[2-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]: ARP broadcast'lerinin router'dan geçmemesi
+- [[8-CIDR Gösterimi|CIDR Gösterimi]]: `/n` aralığının hesaplanması ve taramanın neden bloğun başından başladığı
+- [[10-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]: ARP broadcast'lerinin router'dan geçmemesi
 - [[2-Nmap Scans and TCP Flags|Nmap Scans and TCP Flags]]: host keşfinden sonraki adım, port tarama türleri

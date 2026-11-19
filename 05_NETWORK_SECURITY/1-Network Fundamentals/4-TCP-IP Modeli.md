@@ -1,6 +1,6 @@
 > [!summary] Özet
 > TCP/IP modeli, internetin **gerçekte kullandığı** 4 katmanlı modeldir. ABD Savunma Bakanlığı'nın ARPANET projesinden doğdu, katmanları RFC 1122'de (1989) tanımlandı.
-> [[0-OSI Modeli|OSI]] önce model olarak tasarlanıp protokolleri sonradan aranan bir referanstır. TCP/IP'de ise önce protokoller yazıldı, model onları anlatmak için çıktı.
+> [[3-OSI Modeli|OSI]] önce model olarak tasarlanıp protokolleri sonradan aranan bir referanstır. TCP/IP'de ise önce protokoller yazıldı, model onları anlatmak için çıktı.
 
 ## 4 Katman ve OSI Karşılığı
 
@@ -127,9 +127,9 @@ sudo tcpdump -i eth0 -n port 53   # DNS trafiğini yakala (Uygulama)
 
 ## İlgili Notlar
 
-- [[0-OSI Modeli|OSI Modeli]]: 7 katman, katmanlara göre saldırılar ve savunmalar
+- [[3-OSI Modeli|OSI Modeli]]: 7 katman, katmanlara göre saldırılar ve savunmalar
 - [[2-Nmap Scans and TCP Flags|Nmap Scans and TCP Flags]]: TCP bayrakları, el sıkışma ve port durumları
 - [[2-ping & traceroute|ping & traceroute]]: ICMP ve TTL'in pratikte kullanımı
 - [[2-nslookup & dig|nslookup & dig]]: DNS sorguları
-- [[3-Common Network Protocols and Ports|Common Network Protocols and Ports]]: yaygın protokoller ve portlar
-- [[1-CIDR Gösterimi|CIDR Gösterimi]]: IP adreslerinin ağ ve host kısmı
+- [[14-Common Network Protocols and Ports|Common Network Protocols and Ports]]: yaygın protokoller ve portlar
+- [[8-CIDR Gösterimi|CIDR Gösterimi]]: IP adreslerinin ağ ve host kısmı

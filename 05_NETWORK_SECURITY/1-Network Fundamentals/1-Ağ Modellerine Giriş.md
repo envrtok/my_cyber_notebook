@@ -9,10 +9,10 @@
 4. **Ağ Yazılımları (Network Software):** İşletim sistemleri ve ağ yönetim yazılımları, cihazların etkileşimini ve veri akışını yönetir.
 
 > [!note] Cihazlar hangi katmanda çalışır?
-> Hub → L1, Switch → L2, Router → L3. Ayrıntı için bkz. [[0-OSI Modeli|OSI Modeli]].
+> Hub → L1, Switch → L2, Router → L3. Ayrıntı için bkz. [[3-OSI Modeli|OSI Modeli]].
 
 ## İlgili Notlar
 
-- [[0-OSI Modeli|OSI Modeli]] ve [[0-TCP-IP Modeli|TCP/IP Modeli]]: iletişimin katmanlı yapısı
+- [[3-OSI Modeli|OSI Modeli]] ve [[4-TCP-IP Modeli|TCP/IP Modeli]]: iletişimin katmanlı yapısı
 - İletim ortamları: [[1-Çift Bükümlü Kablo|Çift Bükümlü Kablo]], [[2-Koaksiyel Kablo|Koaksiyel Kablo]], [[3-Fiber Optik Kablo|Fiber Optik Kablo]]
-- [[4-İletişim Modları ve Türleri|İletişim Modları ve Türleri]]
+- [[2-İletişim Modları ve Türleri|İletişim Modları ve Türleri]]

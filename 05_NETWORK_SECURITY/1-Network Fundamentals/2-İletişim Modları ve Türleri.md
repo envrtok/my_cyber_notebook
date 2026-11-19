@@ -23,7 +23,7 @@ Verinin kaç hedefe gönderildiğini belirler.
 |---|---|---|
 | **Unicast** | Tek → Tek | Web sunucusundan bilgisayarına sayfa yüklenmesi |
 | **Multicast** | Tek → Belirli bir grup | Canlı video yayınının aynı anda birçok izleyiciye gitmesi |
-| **Broadcast** | Tek → Ağdaki herkes | DHCP isteği, [[7-ARP|ARP]] isteği |
+| **Broadcast** | Tek → Ağdaki herkes | DHCP isteği, [[9-ARP|ARP]] isteği |
 
 - **Unicast:** En yaygın iletim türüdür; internetteki trafiğin çoğu böyledir.
 - **Multicast:** Aynı veri birden fazla (ama tüm değil) alıcıya ulaşacağında verimlidir.
@@ -31,5 +31,5 @@ Verinin kaç hedefe gönderildiğini belirler.
 
 ## İlgili Notlar
 
-- [[2-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]: ARP broadcast'inin yerel ağda nasıl çalıştığı
-- [[0-OSI Modeli|OSI Modeli]]
+- [[10-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]: ARP broadcast'inin yerel ağda nasıl çalıştığı
+- [[3-OSI Modeli|OSI Modeli]]

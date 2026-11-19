@@ -20,10 +20,10 @@ Başlık yalnızca **8 bayttır** (TCP'nin aksine çok sade):
 | **Checksum** | Hata kontrolü — IPv4'te opsiyonel, **IPv6'da zorunludur** |
 
 > [!tip] TCP mi, UDP mi?
-> Güvenilirlik gerekiyorsa (web, dosya, e-posta) → [[9-TCP|TCP]]. Hız/gecikme kritikse ve küçük kayıplar tolere edilebiliyorsa (canlı ses/video, DNS) → UDP. Ayrıntılı karşılaştırma: [[0-TCP-IP Modeli|TCP/IP Modeli]].
+> Güvenilirlik gerekiyorsa (web, dosya, e-posta) → [[12-TCP|TCP]]. Hız/gecikme kritikse ve küçük kayıplar tolere edilebiliyorsa (canlı ses/video, DNS) → UDP. Ayrıntılı karşılaştırma: [[4-TCP-IP Modeli|TCP/IP Modeli]].
 
 ## İlgili Notlar
 
-- [[9-TCP|TCP]]: güvenilir, bağlantı yönelimli alternatif
-- [[0-TCP-IP Modeli|TCP/IP Modeli]]: TCP/UDP karşılaştırması ve port aralıkları
+- [[12-TCP|TCP]]: güvenilir, bağlantı yönelimli alternatif
+- [[4-TCP-IP Modeli|TCP/IP Modeli]]: TCP/UDP karşılaştırması ve port aralıkları
 - [[2-Nmap Scans and TCP Flags|Nmap Scans and TCP Flags]]: UDP taramasının neden yavaş ve belirsiz olduğu

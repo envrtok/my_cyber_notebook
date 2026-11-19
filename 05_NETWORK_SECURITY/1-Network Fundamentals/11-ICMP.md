@@ -19,7 +19,7 @@
 - **Her Echo Reply satırı:**
     - **bytes:** Alınan yanıtın boyutu
     - **icmp_seq:** Paket sıra numarası
-    - **ttl:** Paketin ağda yaşayabileceği maksimum hop sayısı (bkz. [[0-TCP-IP Modeli|TCP/IP Modeli]] → TTL ipucu)
+    - **ttl:** Paketin ağda yaşayabileceği maksimum hop sayısı (bkz. [[4-TCP-IP Modeli|TCP/IP Modeli]] → TTL ipucu)
     - **time:** Yanıtın geliş süresi (ms)
 - **İstatistikler:** Gönderilen/alınan paket sayısı, paket kaybı yüzdesi, toplam süre ve **RTT** (Round Trip Time: min/ort/maks/standart sapma).
 
@@ -34,5 +34,5 @@
 ## İlgili Notlar
 
 - [[2-ping & traceroute|ping & traceroute]]: ICMP'nin pratikte kullanımı ve TTL ile yol keşfi
-- [[5-IP|IP]]: ICMP mesajlarını taşıyan protokol
-- [[0-TCP-IP Modeli|TCP/IP Modeli]]: TTL alanının anlamı
+- [[6-IP|IP]]: ICMP mesajlarını taşıyan protokol
+- [[4-TCP-IP Modeli|TCP/IP Modeli]]: TTL alanının anlamı

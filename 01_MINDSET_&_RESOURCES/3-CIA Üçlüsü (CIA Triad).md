@@ -30,7 +30,7 @@
 |---|---|
 | [[3-Introduction to IDOR\|IDOR]] — başkasının kaydını okuma | Gizlilik |
 | [[Heartbleed (CVE-2014-0160)]] — sunucu belleğinin sızması | Gizlilik |
-| Cleartext protokoller (bkz. [[3-Common Network Protocols and Ports\|Protocols and Ports]]) | Gizlilik |
+| Cleartext protokoller (bkz. [[14-Common Network Protocols and Ports\|Protocols and Ports]]) | Gizlilik |
 | Web sayfası tahrifi (defacement), veri manipülasyonu | Bütünlük |
 | Eksik/yanlış hash doğrulaması | Bütünlük |
 | DoS / DDoS, fidye yazılımı ile kilitleme | Erişilebilirlik |
@@ -52,4 +52,4 @@
 
 - [[0-Encoding vs Hashing vs Encryption]]: gizlilik (şifreleme) ve bütünlük (hash) için kullanılan temel araçlar
 - [[1-Pyramid of Pain\|Pyramid of Pain]] ve [[2-Cyber & Unified Kill Chain\|Kill Chain]]: saldırganın bu hedefleri bozma yolculuğu
-- [[3-Common Network Protocols and Ports\|Common Network Protocols and Ports]]: cleartext vs şifreli protokoller ve gizlilik
+- [[14-Common Network Protocols and Ports\|Common Network Protocols and Ports]]: cleartext vs şifreli protokoller ve gizlilik

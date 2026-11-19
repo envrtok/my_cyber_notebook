@@ -1,6 +1,6 @@
 > [!summary] Özet
 > OSI (Open Systems Interconnection) modeli, ağ iletişimini **7 katmana** bölen bir **referans modelidir** (ISO, 1984). Her katmanın tek bir görevi vardır: altındaki katmanın hizmetini kullanır, üstündekine hizmet verir.
-> Gerçek internet [[0-TCP-IP Modeli|TCP/IP]] ile çalışır. OSI ise bir sorunu ya da saldırıyı **"hangi katmanda?"** diye konuşmanın ortak dilidir.
+> Gerçek internet [[4-TCP-IP Modeli|TCP/IP]] ile çalışır. OSI ise bir sorunu ya da saldırıyı **"hangi katmanda?"** diye konuşmanın ortak dilidir.
 
 ## 7 Katman
 
@@ -35,7 +35,7 @@
 - Bir cihaz, çalıştığı katmana kadar olan başlıkları okur: **hub** sadece sinyali tekrarlar (L1), **switch** MAC adresine bakar (L2), **router** IP adresine bakar (L3).
 
 > [!important] Router'dan geçerken ne değişir?
-> Router paketi L3'e kadar açar, L2 başlığını (MAC adreslerini) **yeniden yazar**, IP adreslerine dokunmaz (NAT yoksa). Ayrıntı: [[2-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]
+> Router paketi L3'e kadar açar, L2 başlığını (MAC adreslerini) **yeniden yazar**, IP adreslerine dokunmaz (NAT yoksa). Ayrıntı: [[10-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]
 
 ## Kapsülleme (Encapsulation)
 
@@ -103,8 +103,8 @@ L1     0110100101110010100101...                  → Bit
 
 ## İlgili Notlar
 
-- [[0-TCP-IP Modeli|TCP/IP Modeli]]: internetin gerçekte kullandığı 4 katmanlı model ve gerçek başlık alanları
-- [[1-CIDR Gösterimi|CIDR Gösterimi]]: L3 adreslemesi, ağ ve host bitleri
-- [[2-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]: L2 ile L3'ün birlikte çalışması
-- [[3-Common Network Protocols and Ports|Common Network Protocols and Ports]]: L7 protokolleri ve kullandıkları L4 portları
+- [[4-TCP-IP Modeli|TCP/IP Modeli]]: internetin gerçekte kullandığı 4 katmanlı model ve gerçek başlık alanları
+- [[8-CIDR Gösterimi|CIDR Gösterimi]]: L3 adreslemesi, ağ ve host bitleri
+- [[10-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]: L2 ile L3'ün birlikte çalışması
+- [[14-Common Network Protocols and Ports|Common Network Protocols and Ports]]: L7 protokolleri ve kullandıkları L4 portları
 - [[2-Nmap Scans and TCP Flags|Nmap Scans and TCP Flags]]: L4'te TCP bayraklarıyla port taraması

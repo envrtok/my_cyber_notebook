@@ -1,5 +1,5 @@
 > [!summary] Özet
-> **Fiber optik kablo**, veriyi elektrik yerine **ışık sinyalleriyle** taşır. Yüksek hız, uzun mesafede düşük sinyal kaybı sağlar ve elektromanyetik parazitten **etkilenmez**. Fiziksel katman ([[0-OSI Modeli|OSI]] L1).
+> **Fiber optik kablo**, veriyi elektrik yerine **ışık sinyalleriyle** taşır. Yüksek hız, uzun mesafede düşük sinyal kaybı sağlar ve elektromanyetik parazitten **etkilenmez**. Fiziksel katman ([[3-OSI Modeli|OSI]] L1).
 
 ## Yapısı
 
@@ -28,4 +28,4 @@
 ## İlgili Notlar
 
 - [[2-Koaksiyel Kablo|Koaksiyel Kablo]] ve [[1-Çift Bükümlü Kablo|Çift Bükümlü Kablo]]: bakır tabanlı iletim ortamları
-- [[0-OSI Modeli|OSI Modeli]]: fiziksel katman (L1)
+- [[3-OSI Modeli|OSI Modeli]]: fiziksel katman (L1)

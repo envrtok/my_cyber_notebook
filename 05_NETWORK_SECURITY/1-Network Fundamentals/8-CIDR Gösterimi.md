@@ -111,4 +111,4 @@ nmap 10.10.12.13-20          # belirli bir aralığı tara
 ## İlgili Notlar
 
 - [[1-Nmap – Host Keşfi|Nmap – Host Keşfi]]: hedef belirleme yöntemleri ve `-sn` ile canlı host keşfi
-- [[2-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]: subnet mask'in "hedef benim ağımda mı?" kararındaki rolü
+- [[10-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]: subnet mask'in "hedef benim ağımda mı?" kararındaki rolü

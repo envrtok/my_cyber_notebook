@@ -13,7 +13,7 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 <!-- INDEX:START -->
 
-![Notlar](https://img.shields.io/badge/notlar-82-0f766e?style=flat-square)
+![Notlar](https://img.shields.io/badge/notlar-81-0f766e?style=flat-square)
 
 
 ### 📂 01 · MINDSET & RESOURCES <sub>(6)</sub>
@@ -88,27 +88,26 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 - **3-Server Side Attacks › 3.6-Security Misconfiguration**
   - [git-dumper](<04_WEB_SECURITY/3-Server Side Attacks/3.6-Security Misconfiguration/git-dumper.md>)
 
-### 📂 05 · NETWORK SECURITY <sub>(18)</sub>
+### 📂 05 · NETWORK SECURITY <sub>(17)</sub>
 
 - **1-Network Fundamentals**
-  - [0-Ağ Modellerine Giriş](<05_NETWORK_SECURITY/1-Network Fundamentals/0-Ağ Modellerine Giriş.md>)
-  - [0-OSI Modeli](<05_NETWORK_SECURITY/1-Network Fundamentals/0-OSI Modeli.md>)
-  - [0-TCP-IP Modeli](<05_NETWORK_SECURITY/1-Network Fundamentals/0-TCP-IP Modeli.md>)
-  - [1-CIDR Gösterimi](<05_NETWORK_SECURITY/1-Network Fundamentals/1-CIDR Gösterimi.md>)
-  - [10-UDP](<05_NETWORK_SECURITY/1-Network Fundamentals/10-UDP.md>)
-  - [2-Farklı Ağlar Arası Ping ve ARP](<05_NETWORK_SECURITY/1-Network Fundamentals/2-Farklı Ağlar Arası Ping ve ARP.md>)
-  - [3-Common Network Protocols and Ports](<05_NETWORK_SECURITY/1-Network Fundamentals/3-Common Network Protocols and Ports.md>)
-  - [4-İletişim Modları ve Türleri](<05_NETWORK_SECURITY/1-Network Fundamentals/4-İletişim Modları ve Türleri.md>)
-  - [5-IP](<05_NETWORK_SECURITY/1-Network Fundamentals/5-IP.md>)
-  - [6-IP Subneting](<05_NETWORK_SECURITY/1-Network Fundamentals/6-IP Subneting.md>)
-  - [7-ARP](<05_NETWORK_SECURITY/1-Network Fundamentals/7-ARP.md>)
-  - [8-ICMP](<05_NETWORK_SECURITY/1-Network Fundamentals/8-ICMP.md>)
-  - [9-TCP](<05_NETWORK_SECURITY/1-Network Fundamentals/9-TCP.md>)
-  - [Başlıksız](<05_NETWORK_SECURITY/1-Network Fundamentals/Başlıksız.md>)
-- **1-Network Fundamentals › 0-Physical Layer & Cabling**
-  - [1-Çift Bükümlü Kablo](<05_NETWORK_SECURITY/1-Network Fundamentals/0-Physical Layer & Cabling/1-Çift Bükümlü Kablo.md>)
-  - [2-Koaksiyel Kablo](<05_NETWORK_SECURITY/1-Network Fundamentals/0-Physical Layer & Cabling/2-Koaksiyel Kablo.md>)
-  - [3-Fiber Optik Kablo](<05_NETWORK_SECURITY/1-Network Fundamentals/0-Physical Layer & Cabling/3-Fiber Optik Kablo.md>)
+  - [1-Ağ Modellerine Giriş](<05_NETWORK_SECURITY/1-Network Fundamentals/1-Ağ Modellerine Giriş.md>)
+  - [10-Farklı Ağlar Arası Ping ve ARP](<05_NETWORK_SECURITY/1-Network Fundamentals/10-Farklı Ağlar Arası Ping ve ARP.md>)
+  - [11-ICMP](<05_NETWORK_SECURITY/1-Network Fundamentals/11-ICMP.md>)
+  - [12-TCP](<05_NETWORK_SECURITY/1-Network Fundamentals/12-TCP.md>)
+  - [13-UDP](<05_NETWORK_SECURITY/1-Network Fundamentals/13-UDP.md>)
+  - [14-Common Network Protocols and Ports](<05_NETWORK_SECURITY/1-Network Fundamentals/14-Common Network Protocols and Ports.md>)
+  - [2-İletişim Modları ve Türleri](<05_NETWORK_SECURITY/1-Network Fundamentals/2-İletişim Modları ve Türleri.md>)
+  - [3-OSI Modeli](<05_NETWORK_SECURITY/1-Network Fundamentals/3-OSI Modeli.md>)
+  - [4-TCP-IP Modeli](<05_NETWORK_SECURITY/1-Network Fundamentals/4-TCP-IP Modeli.md>)
+  - [6-IP](<05_NETWORK_SECURITY/1-Network Fundamentals/6-IP.md>)
+  - [7-Subnet Mask ve Ağ Adresi](<05_NETWORK_SECURITY/1-Network Fundamentals/7-Subnet Mask ve Ağ Adresi.md>)
+  - [8-CIDR Gösterimi](<05_NETWORK_SECURITY/1-Network Fundamentals/8-CIDR Gösterimi.md>)
+  - [9-ARP](<05_NETWORK_SECURITY/1-Network Fundamentals/9-ARP.md>)
+- **1-Network Fundamentals › 5-Physical Layer & Cabling**
+  - [1-Çift Bükümlü Kablo](<05_NETWORK_SECURITY/1-Network Fundamentals/5-Physical Layer & Cabling/1-Çift Bükümlü Kablo.md>)
+  - [2-Koaksiyel Kablo](<05_NETWORK_SECURITY/1-Network Fundamentals/5-Physical Layer & Cabling/2-Koaksiyel Kablo.md>)
+  - [3-Fiber Optik Kablo](<05_NETWORK_SECURITY/1-Network Fundamentals/5-Physical Layer & Cabling/3-Fiber Optik Kablo.md>)
 - **Password Attacks**
   - [Hydra](<05_NETWORK_SECURITY/Password Attacks/Hydra.md>)
 

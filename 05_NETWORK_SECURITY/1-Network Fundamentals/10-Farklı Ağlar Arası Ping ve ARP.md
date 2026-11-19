@@ -72,6 +72,6 @@ ARP isteği, gönderenin IP ve MAC bilgisini taşır. Alıcı taraf bu bilgiyi k
 
 ## İlgili Notlar
 
-- [[1-CIDR Gösterimi|CIDR Gösterimi]]: bir IP'nin hangi ağa ait olduğunu belirleyen ağ/host bit ayrımı
+- [[8-CIDR Gösterimi|CIDR Gösterimi]]: bir IP'nin hangi ağa ait olduğunu belirleyen ağ/host bit ayrımı
 - [[1-Nmap – Host Keşfi|Nmap – Host Keşfi]]: ARP taraması (`-PR`) bu yüzden sadece yerel ağda çalışır
 - [[2-ping & traceroute|ping & traceroute]]: TTL'in her router'da azalması ve traceroute'un bunu nasıl kullandığı

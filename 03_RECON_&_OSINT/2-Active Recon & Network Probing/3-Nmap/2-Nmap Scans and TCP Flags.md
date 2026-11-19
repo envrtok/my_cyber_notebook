@@ -307,4 +307,4 @@ sudo nmap -sS --reason MACHINE_IP                   # Show why each state was ch
 ## Related notes
 
 - [[1-Nmap – Host Keşfi|Nmap – Host Keşfi]]: finding live hosts before port scanning
-- [[3-Common Network Protocols and Ports|Common Network Protocols and Ports]]: what the common open ports usually mean
+- [[14-Common Network Protocols and Ports|Common Network Protocols and Ports]]: what the common open ports usually mean

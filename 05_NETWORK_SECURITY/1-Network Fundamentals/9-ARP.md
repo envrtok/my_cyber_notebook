@@ -19,10 +19,10 @@ ip neigh        # modern Linux karşılığı (IP ↔ MAC eşleşmeleri)
 ```
 
 > [!warning] Güvenlik: ARP Spoofing
-> ARP kimlik doğrulama yapmaz; yerel ağdaki herkes birbirine güvenir. Saldırgan sahte ARP yanıtlarıyla kendini gateway gibi tanıtıp trafiği üzerinden geçirebilir (MITM). Bkz. [[0-OSI Modeli|OSI Modeli]] → L2 saldırıları.
+> ARP kimlik doğrulama yapmaz; yerel ağdaki herkes birbirine güvenir. Saldırgan sahte ARP yanıtlarıyla kendini gateway gibi tanıtıp trafiği üzerinden geçirebilir (MITM). Bkz. [[3-OSI Modeli|OSI Modeli]] → L2 saldırıları.
 
 ## İlgili Notlar
 
-- [[2-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]: ARP'ın farklı ağlar arası ping sırasında adım adım çalışması
-- [[5-IP|IP]]: çözülen mantıksal adres
-- [[0-OSI Modeli|OSI Modeli]]: L2/L3 ilişkisi
+- [[10-Farklı Ağlar Arası Ping ve ARP|Farklı Ağlar Arası Ping ve ARP]]: ARP'ın farklı ağlar arası ping sırasında adım adım çalışması
+- [[6-IP|IP]]: çözülen mantıksal adres
+- [[3-OSI Modeli|OSI Modeli]]: L2/L3 ilişkisi

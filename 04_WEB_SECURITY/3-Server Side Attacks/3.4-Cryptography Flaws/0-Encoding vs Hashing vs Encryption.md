@@ -57,7 +57,7 @@ Veriyi bir **anahtarla** okunamaz hale getirir; doğru anahtarla geri açılır.
 | **Asimetrik** | Açık (public) + özel (private) anahtar çifti | RSA, ECC | Yavaş; anahtar paylaşımı ve imza için ideal |
 
 > [!note] Gerçek dünyada ikisi birlikte
-> TLS (HTTPS) hız için **simetrik** şifreleme kullanır, ama simetrik anahtarı güvenle paylaşmak için önce **asimetrik** şifrelemeden yararlanır. Bkz. [[0-TCP-IP Modeli\|TCP/IP Modeli]] içindeki TLS akışı.
+> TLS (HTTPS) hız için **simetrik** şifreleme kullanır, ama simetrik anahtarı güvenle paylaşmak için önce **asimetrik** şifrelemeden yararlanır. Bkz. [[4-TCP-IP Modeli\|TCP/IP Modeli]] içindeki TLS akışı.
 
 ## Hızlı Ayrım
 
@@ -71,4 +71,4 @@ Veriyi bir **anahtarla** okunamaz hale getirir; doğru anahtarla geri açılır.
 - [[3-CIA Üçlüsü (CIA Triad)\|CIA Üçlüsü]]: gizlilik (şifreleme) ve bütünlük (hash) hedefleri
 - [[Heartbleed (CVE-2014-0160)]] ve [[Padding Oracle]]: şifreleme yanlış uygulandığında doğan açıklar
 - [[Hydra]]: parolaların test edilmesi ve hash saklama bağlamı
-- [[0-TCP-IP Modeli\|TCP/IP Modeli]]: TLS'in simetrik + asimetrik şifrelemeyi birlikte kullanması
+- [[4-TCP-IP Modeli\|TCP/IP Modeli]]: TLS'in simetrik + asimetrik şifrelemeyi birlikte kullanması

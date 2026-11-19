@@ -1,5 +1,5 @@
 > [!summary] Özet
-> **Çift bükümlü kablo (twisted pair)**, elektromanyetik paraziti ve komşu tellerdeki sinyal karışmasını (crosstalk) azaltmak için birbirine bükülmüş yalıtımlı bakır tel çiftlerinden oluşur. Ethernet/LAN'ların en yaygın kablosudur. Fiziksel katman ([[0-OSI Modeli|OSI]] L1).
+> **Çift bükümlü kablo (twisted pair)**, elektromanyetik paraziti ve komşu tellerdeki sinyal karışmasını (crosstalk) azaltmak için birbirine bükülmüş yalıtımlı bakır tel çiftlerinden oluşur. Ethernet/LAN'ların en yaygın kablosudur. Fiziksel katman ([[3-OSI Modeli|OSI]] L1).
 
 ## Nasıl Çalışır?
 
@@ -55,4 +55,4 @@ RJ-45 konnektörlerinde tellerin renk/pin düzenini belirleyen endüstri standar
 ## İlgili Notlar
 
 - [[2-Koaksiyel Kablo|Koaksiyel Kablo]] ve [[3-Fiber Optik Kablo|Fiber Optik Kablo]]: diğer iletim ortamları
-- [[0-OSI Modeli|OSI Modeli]]: fiziksel (L1) ve veri bağlantı (L2) katmanları
+- [[3-OSI Modeli|OSI Modeli]]: fiziksel (L1) ve veri bağlantı (L2) katmanları

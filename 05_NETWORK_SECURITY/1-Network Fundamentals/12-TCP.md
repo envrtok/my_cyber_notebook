@@ -42,6 +42,6 @@ sequenceDiagram
 
 ## İlgili Notlar
 
-- [[10-UDP|UDP]]: hızlı ama güvenilir olmayan alternatif
-- [[0-TCP-IP Modeli|TCP/IP Modeli]]: taşıma katmanı ve başlık alanları
+- [[13-UDP|UDP]]: hızlı ama güvenilir olmayan alternatif
+- [[4-TCP-IP Modeli|TCP/IP Modeli]]: taşıma katmanı ve başlık alanları
 - [[2-Nmap Scans and TCP Flags|Nmap Scans and TCP Flags]]: SYN/ACK/RST bayraklarıyla port tarama
