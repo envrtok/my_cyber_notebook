@@ -1,9 +1,13 @@
 # Firefox / LibreWolf: Kenara Gelince Açılan Gizli Dikey Sekmeler
 
+> [!summary] Özet
+> Firefox/LibreWolf'un yerleşik dikey sekme panelini **tamamen gizleyip**, fare ekranın sol kenarına gelince **kayarak açılmasını** sağlayan `userChrome.css` yöntemi (Arc / Zen benzeri davranış).
+
 Bu rehber, Firefox'un yerleşik dikey sekme panelini **tamamen gizleyip**, fare ekranın sol kenarına gelince **kayarak açılmasını** sağlar (Arc / Zen benzeri davranış).
 
 Firefox'un kendi "üzerine gelince genişlet" seçeneği paneli tamamen gizlemez, ikonlardan oluşan ince bir şerit bırakır. Bu yöntemde şerit de yok olur.
 
+> [!note] Test edildi
 > Test edilen sürüm: **LibreWolf 159.0** (Linux). Firefox'ta da aynı şekilde çalışır. Firefox arayüzü sürümler arasında değiştiği için öğe adları ileride farklılaşabilir. Bu durumda [Sorun giderme](#sorun-giderme) bölümüne bakın.
 
 ---
@@ -41,6 +45,7 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 | Firefox (Windows) | `%APPDATA%\Mozilla\Firefox\Profiles\<profil>\` |
 | Firefox (macOS) | `~/Library/Application Support/Firefox/Profiles/<profil>/` |
 
+> [!warning]
 > Birden fazla profil olabilir. Yolu tahmin etmeyin, her zaman `about:support` sayfasındaki satıra bakın.
 
 ## 4. userChrome.css dosyasını oluşturun
@@ -178,6 +183,7 @@ Dosyayı düzenledikten sonra tarayıcıyı kapatmadan uygulamak için konsola �
 })()
 ```
 
+> [!note]
 > Bu yöntemle yüklenen stil yalnızca o oturum için geçerlidir. Kalıcı olması için dosyanın profil klasöründe durması ve tarayıcının yeniden başlatılması gerekir.
 
 ### Dosyanın yüklendiğini hızlıca test etmek

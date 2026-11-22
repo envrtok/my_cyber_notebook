@@ -13,12 +13,8 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 <!-- INDEX:START -->
 
-![Notlar](https://img.shields.io/badge/notlar-82-0f766e?style=flat-square)
+![Notlar](https://img.shields.io/badge/notlar-83-0f766e?style=flat-square)
 
-
-### 📂 00 · INBOX <sub>(1)</sub>
-
-- [firefox-librewolf-gizli-dikey-sekmeler](<00_INBOX/firefox-librewolf-gizli-dikey-sekmeler.md>)
 
 ### 📂 01 · MINDSET & RESOURCES <sub>(6)</sub>
 
@@ -29,12 +25,13 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 - [3-CIA Üçlüsü (CIA Triad)](<01_MINDSET_&_RESOURCES/3-CIA Üçlüsü (CIA Triad).md>)
 - [4-Sızma Testi Metodolojileri](<01_MINDSET_&_RESOURCES/4-Sızma Testi Metodolojileri.md>)
 
-### 📂 02 · SYSTEMS & OS <sub>(6)</sub>
+### 📂 02 · SYSTEMS & OS <sub>(7)</sub>
 
 - **LINUX**
   - [APT Package Management Cheatsheet](<02_SYSTEMS_&_OS/LINUX/APT Package Management Cheatsheet.md>)
   - [Python Virtual Environment Quick Guide](<02_SYSTEMS_&_OS/LINUX/Python Virtual Environment Quick Guide.md>)
   - [Snap & Flatpak](<02_SYSTEMS_&_OS/LINUX/Snap & Flatpak.md>)
+  - [firefox-librewolf-gizli-dikey-sekmeler](<02_SYSTEMS_&_OS/LINUX/firefox-librewolf-gizli-dikey-sekmeler.md>)
   - [gnome-cokme-kurtarma](<02_SYSTEMS_&_OS/LINUX/gnome-cokme-kurtarma.md>)
   - [systemctl & crontab](<02_SYSTEMS_&_OS/LINUX/systemctl & crontab.md>)
   - [🧰 Linux Disk Commands Cheatsheet](<02_SYSTEMS_&_OS/LINUX/🧰 Linux Disk Commands Cheatsheet.md>)
@@ -92,7 +89,7 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 - **3-Server Side Attacks › 3.6-Security Misconfiguration**
   - [git-dumper](<04_WEB_SECURITY/3-Server Side Attacks/3.6-Security Misconfiguration/git-dumper.md>)
 
-### 📂 05 · NETWORK SECURITY <sub>(17)</sub>
+### 📂 05 · NETWORK SECURITY <sub>(18)</sub>
 
 - **1-Network Fundamentals**
   - [1-Ağ Modellerine Giriş](<05_NETWORK_SECURITY/1-Network Fundamentals/1-Ağ Modellerine Giriş.md>)
@@ -101,6 +98,7 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
   - [12-TCP](<05_NETWORK_SECURITY/1-Network Fundamentals/12-TCP.md>)
   - [13-UDP](<05_NETWORK_SECURITY/1-Network Fundamentals/13-UDP.md>)
   - [14-Common Network Protocols and Ports](<05_NETWORK_SECURITY/1-Network Fundamentals/14-Common Network Protocols and Ports.md>)
+  - [15-Domain Name System (DNS)](<05_NETWORK_SECURITY/1-Network Fundamentals/15-Domain Name System (DNS).md>)
   - [2-İletişim Modları ve Türleri](<05_NETWORK_SECURITY/1-Network Fundamentals/2-İletişim Modları ve Türleri.md>)
   - [3-OSI Modeli](<05_NETWORK_SECURITY/1-Network Fundamentals/3-OSI Modeli.md>)
   - [4-TCP-IP Modeli](<05_NETWORK_SECURITY/1-Network Fundamentals/4-TCP-IP Modeli.md>)
