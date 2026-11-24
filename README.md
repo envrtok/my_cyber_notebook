@@ -13,12 +13,8 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 <!-- INDEX:START -->
 
-![Notlar](https://img.shields.io/badge/notlar-84-0f766e?style=flat-square)
+![Notlar](https://img.shields.io/badge/notlar-95-0f766e?style=flat-square)
 
-
-### 📂 00 · INBOX <sub>(1)</sub>
-
-- [Linux Dosya Sistemi Hiyerarşisi (FHS)](<00_INBOX/Linux Dosya Sistemi Hiyerarşisi (FHS).md>)
 
 ### 📂 01 · MINDSET & RESOURCES <sub>(6)</sub>
 
@@ -29,16 +25,29 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 - [3-CIA Üçlüsü (CIA Triad)](<01_MINDSET_&_RESOURCES/3-CIA Üçlüsü (CIA Triad).md>)
 - [4-Sızma Testi Metodolojileri](<01_MINDSET_&_RESOURCES/4-Sızma Testi Metodolojileri.md>)
 
-### 📂 02 · SYSTEMS & OS <sub>(7)</sub>
+### 📂 02 · SYSTEMS & OS <sub>(19)</sub>
 
 - **LINUX**
   - [APT Package Management Cheatsheet](<02_SYSTEMS_&_OS/LINUX/APT Package Management Cheatsheet.md>)
+  - [ARNET-WIFI-linux-rehberi](<02_SYSTEMS_&_OS/LINUX/ARNET-WIFI-linux-rehberi.md>)
   - [Python Virtual Environment Quick Guide](<02_SYSTEMS_&_OS/LINUX/Python Virtual Environment Quick Guide.md>)
   - [Snap & Flatpak](<02_SYSTEMS_&_OS/LINUX/Snap & Flatpak.md>)
   - [firefox-librewolf-gizli-dikey-sekmeler](<02_SYSTEMS_&_OS/LINUX/firefox-librewolf-gizli-dikey-sekmeler.md>)
   - [gnome-cokme-kurtarma](<02_SYSTEMS_&_OS/LINUX/gnome-cokme-kurtarma.md>)
   - [systemctl & crontab](<02_SYSTEMS_&_OS/LINUX/systemctl & crontab.md>)
   - [🧰 Linux Disk Commands Cheatsheet](<02_SYSTEMS_&_OS/LINUX/🧰 Linux Disk Commands Cheatsheet.md>)
+- **LINUX › 0-Linux Temelleri**
+  - [1-terminal](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/1-terminal.md>)
+  - [10-Process Yönetimi](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/10-Process Yönetimi.md>)
+  - [11-Vim](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/11-Vim.md>)
+  - [2-Dizinlerde Gezinti](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/2-Dizinlerde Gezinti.md>)
+  - [3-Linux Dosya Sistemi Hiyerarşisi (FHS)](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/3-Linux Dosya Sistemi Hiyerarşisi (FHS).md>)
+  - [4-Dosya ve Dizin İşlemleri](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/4-Dosya ve Dizin İşlemleri.md>)
+  - [5-Linux'ta Dosya ve Dizinleri Bulma Yöntemleri](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/5-Linux'ta Dosya ve Dizinleri Bulma Yöntemleri.md>)
+  - [6-Filtreler](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/6-Filtreler.md>)
+  - [7-İzinler](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/7-İzinler.md>)
+  - [8-Kullanıcı Yönetimi](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/8-Kullanıcı Yönetimi.md>)
+  - [9-Grup Yönetimi](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/9-Grup Yönetimi.md>)
 
 ### 📂 03 · RECON & OSINT <sub>(18)</sub>
 
