@@ -13,8 +13,12 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 <!-- INDEX:START -->
 
-![Notlar](https://img.shields.io/badge/notlar-83-0f766e?style=flat-square)
+![Notlar](https://img.shields.io/badge/notlar-84-0f766e?style=flat-square)
 
+
+### 📂 00 · INBOX <sub>(1)</sub>
+
+- [Linux Dosya Sistemi Hiyerarşisi (FHS)](<00_INBOX/Linux Dosya Sistemi Hiyerarşisi (FHS).md>)
 
 ### 📂 01 · MINDSET & RESOURCES <sub>(6)</sub>
 
