@@ -1,4 +1,4 @@
-# Kullanıcı Yönetimi
+	# Kullanıcı Yönetimi
 
 > [!summary] Özet
 > Linux çok kullanıcılı bir sistemdir: her kullanıcının adı, benzersiz **UID**'si, ev dizini ve sınırlı yetkisi vardır (yalnızca `root`/UID 0 her şeyi yapar). Bu not: kullanıcı oluşturma, bilgi görme, değiştirme ve silme + kritik dosyalar.

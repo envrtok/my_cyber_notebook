@@ -1,4 +1,4 @@
-# Linux Dosya Sistemi Hiyerarşisi (FHS)
+	# Linux Dosya Sistemi Hiyerarşisi (FHS)
 
 > [!summary] Özet
 > Linux, sürücü harfleri yerine `/` (root) dizininden başlayan **tek bir ağaç** kullanır. Bu yapı **Filesystem Hierarchy Standard (FHS)** ile standartlaştırılmıştır; her üst dizinin belirli bir görevi vardır.

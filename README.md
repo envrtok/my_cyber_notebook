@@ -13,7 +13,7 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 <!-- INDEX:START -->
 
-![Notlar](https://img.shields.io/badge/notlar-95-0f766e?style=flat-square)
+![Notlar](https://img.shields.io/badge/notlar-96-0f766e?style=flat-square)
 
 
 ### 📂 01 · MINDSET & RESOURCES <sub>(6)</sub>
@@ -25,7 +25,7 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 - [3-CIA Üçlüsü (CIA Triad)](<01_MINDSET_&_RESOURCES/3-CIA Üçlüsü (CIA Triad).md>)
 - [4-Sızma Testi Metodolojileri](<01_MINDSET_&_RESOURCES/4-Sızma Testi Metodolojileri.md>)
 
-### 📂 02 · SYSTEMS & OS <sub>(19)</sub>
+### 📂 02 · SYSTEMS & OS <sub>(20)</sub>
 
 - **LINUX**
   - [APT Package Management Cheatsheet](<02_SYSTEMS_&_OS/LINUX/APT Package Management Cheatsheet.md>)
@@ -40,6 +40,7 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
   - [1-terminal](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/1-terminal.md>)
   - [10-Process Yönetimi](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/10-Process Yönetimi.md>)
   - [11-Vim](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/11-Vim.md>)
+  - [12-Ağ Yönetimi](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/12-Ağ Yönetimi.md>)
   - [2-Dizinlerde Gezinti](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/2-Dizinlerde Gezinti.md>)
   - [3-Linux Dosya Sistemi Hiyerarşisi (FHS)](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/3-Linux Dosya Sistemi Hiyerarşisi (FHS).md>)
   - [4-Dosya ve Dizin İşlemleri](<02_SYSTEMS_&_OS/LINUX/0-Linux Temelleri/4-Dosya ve Dizin İşlemleri.md>)
