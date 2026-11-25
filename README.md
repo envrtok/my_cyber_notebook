@@ -13,7 +13,7 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 
 <!-- INDEX:START -->
 
-![Notlar](https://img.shields.io/badge/notlar-96-0f766e?style=flat-square)
+![Notlar](https://img.shields.io/badge/notlar-100-0f766e?style=flat-square)
 
 
 ### 📂 01 · MINDSET & RESOURCES <sub>(6)</sub>
@@ -103,7 +103,7 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
 - **3-Server Side Attacks › 3.6-Security Misconfiguration**
   - [git-dumper](<04_WEB_SECURITY/3-Server Side Attacks/3.6-Security Misconfiguration/git-dumper.md>)
 
-### 📂 05 · NETWORK SECURITY <sub>(18)</sub>
+### 📂 05 · NETWORK SECURITY <sub>(22)</sub>
 
 - **1-Network Fundamentals**
   - [1-Ağ Modellerine Giriş](<05_NETWORK_SECURITY/1-Network Fundamentals/1-Ağ Modellerine Giriş.md>)
@@ -124,6 +124,11 @@ Notların bir kısmı Türkçe, bir kısmı İngilizce; çoğu TryHackMe ve benz
   - [1-Çift Bükümlü Kablo](<05_NETWORK_SECURITY/1-Network Fundamentals/5-Physical Layer & Cabling/1-Çift Bükümlü Kablo.md>)
   - [2-Koaksiyel Kablo](<05_NETWORK_SECURITY/1-Network Fundamentals/5-Physical Layer & Cabling/2-Koaksiyel Kablo.md>)
   - [3-Fiber Optik Kablo](<05_NETWORK_SECURITY/1-Network Fundamentals/5-Physical Layer & Cabling/3-Fiber Optik Kablo.md>)
+- **2-Trafik Analizi**
+  - [1-tcpdump](<05_NETWORK_SECURITY/2-Trafik Analizi/1-tcpdump.md>)
+  - [2-Wireshark - Filtre Sözdizimi](<05_NETWORK_SECURITY/2-Trafik Analizi/2-Wireshark - Filtre Sözdizimi.md>)
+  - [3-Wireshark - İstatistikler](<05_NETWORK_SECURITY/2-Trafik Analizi/3-Wireshark - İstatistikler.md>)
+  - [4-Wireshark - Analiz](<05_NETWORK_SECURITY/2-Trafik Analizi/4-Wireshark - Analiz.md>)
 - **Password Attacks**
   - [Hydra](<05_NETWORK_SECURITY/Password Attacks/Hydra.md>)
 
